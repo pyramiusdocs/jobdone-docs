@@ -7,20 +7,16 @@
     若無法收到驗證簡訊，請關閉 Whoscall 等類型的的阻擋軟體再嘗試。
 
 
-![](../../assets/images/eyKe0EtcMKDtdheawOT8.png)
+![點選 「 註冊 」 後，輸入想要設定的帳號密碼](../../assets/images/b7b28b8a2085ba35.png)
 
+![輸入手機號碼後，點選 「 驗證手機 」](../../assets/images/d0a66aba7f8e945a.png)
 
-![](../../assets/images/TcjhPpIlOZrgEs5jGsic.png)
+![手機會收到一組簡訊驗證碼，輸入後點選 「 下一步 」](../../assets/images/4de5d77e6d9387f1.png)
 
-
-![](../../assets/images/Quto0fZQaDcMkU8xM8ny.png)
-
-
-![](../../assets/images/OYQBYSIQVWIZuDXuVgng.png)
+![設定個人資料後即可註冊完成](../../assets/images/58139b17be4cd84c.png)
 
 
 !!! warning
-    提醒您：請務必填寫有效的個人信箱，忘記密碼才能重新設定。
-
+    提醒您：請務必填寫有效的**個人信箱**，忘記密碼才能重新設定。
 
 

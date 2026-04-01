@@ -1,31 +1,32 @@
+---
+description: Quit a Company
+---
 
+# 退出公司
 
-Quit a Company
-# 網頁版
+## 網頁版
 
-
-## 公司將成員請離
-
+### 公司將成員請離
 
 有帳號管理權限的公司成員，點選成員右側的選單鈕， 再點選 「 請離公司 」，即可讓成員離開公司。
 
+![](../assets/images/fa665d2558501264.png)
 
-## 成員主動離開公司
+![](../assets/images/dc7c4173f53e374e.png)
 
+### 成員主動離開公司
 
 進入個人資訊頁面，點選「離開公司」，即可離開公司，恢復為個人帳號。
 
+![](../assets/images/a8e0f0fa2229b282.png)
 
-# APP
+![](../assets/images/397f3f281229f10a.png)
 
+## APP
 
-## 主動離開公司
-
+### 主動離開公司
 
 點選 「 離開公司 」，即可離開公司，恢復為個人帳號。
 
-
-  
-
-
+&#x20;![](https://docs.jobdone.cc/~gitbook/image?url=https%3A%2F%2F3419978664-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FohH67wtoVrbfIMXiCl2V%252Fuploads%252FtHaXCweQoA32njG6TyBf%252FIMG_0326.jpg%3Falt%3Dmedia%26token%3D30e7cb70-7bab-4900-870f-1b3a6318bf28\&width=300\&dpr=4\&quality=100\&sign=cb9f98a5\&sv=1) ![](https://docs.jobdone.cc/~gitbook/image?url=https%3A%2F%2F3419978664-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FohH67wtoVrbfIMXiCl2V%252Fuploads%252FnNQUPwrWGbI4Ir5UxxXw%252FIMG_0328.jpg%3Falt%3Dmedia%26token%3Dd1bd6e2e-a176-4487-9289-ea29f0a15749\&width=300\&dpr=4\&quality=100\&sign=7f2edfa8\&sv=1)
 

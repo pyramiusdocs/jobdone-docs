@@ -1,59 +1,45 @@
+# 自主/自動檢查表
 
-# 建立公司自主檢查範本
+## 建立公司自主檢查範本
 
 1. 登入帳號後，在 「 公司通用設定內 」 左側選單中選擇 「 公司自主檢查範本 」。
 2. 進入公司自主檢查範本介面後，點選右上角 「 建立範本 」
 3. 用篩選器搜尋適合的範本後，點選 「 匯入範本 」
 
+![在 「 公司通用設定內 」 左側選單中選擇 「 公司自主檢查範本 」](../assets/images/da7de2d00466bbfb.png)
 
-![](../assets/images/4pLIlER3R6cyziZsgSeJ.png)
+![進入公司自主檢查範本介面後，點選右上角 「 建立範本 」](../assets/images/08069e0c620253fc.png)
 
+![用篩選器搜尋適合的範本，點選 「 選擇 」](../assets/images/0784e535221b1567.png)
 
-![](../assets/images/YLXzQGlx3BwuhWqkrNTy.png)
+![範本進入右側的欄位後，點選 「 匯入範本 」](../assets/images/d259f767a11e2c19.png)
 
-
-![](../assets/images/V2nrOkmCDMg3LdcXvyNZ.png)
-
-
-![](../assets/images/3gWOT9AWnRq8vZfJwLP9.png)
-
-
-# 建立專案檢查範本
+## 建立專案檢查範本
 
 1. 選擇要建立檢查表的專案，點選 「 檢查表 」 進入專案檢查表介面。
 2. 選擇左側選單中的 「 專案檢查範本 」，然後點選右上角 「 匯入公司範本 」 中的 「 選擇範本 」。
 3. 使用篩選器找到需要的範本後，點選 「 匯入範本 」。
 
+![登入帳號後，選擇要建立檢查表的專案](../assets/images/3cc381fbd7a43643.png)
 
-![](../assets/images/b7EumqkyMtRDy4zYKYaN.png)
+![點選 「 檢查表 」 進入專案檢查表介面](../assets/images/c296035181cec104.png)
 
+![在 「 專案檢查範本 」中點選右上角 「 匯入公司範本 」 中的 「 選擇範本 」](../assets/images/75e5adc6bb250b81.png)
 
-![](../assets/images/Gm0zaLpmiqTBA6sdVpOX.png)
-
-
-![](../assets/images/EeUZDTy75JgXBCV65Jh7.png)
-
-
-![](../assets/images/AmRWHGmbSbI5C2bnSpx3.png)
+![使用篩選器找到需要的範本後，點選 「 匯入範本 」。](../assets/images/28f8292ab1ae217e.png)
 
 
 
-
-
-# 執行檢查工作
+## 執行檢查工作
 
 1. 進入專案檢查表介面後，在左側選單中選擇 「 執行檢查工作 」，點選右上角 「 ＋檢查工作 」
 2. 點選 「 選用檢查範本 」，用篩選器找到需要的範本後，點選 「 確定選擇 」。
 3. 依序填入預計執行日期、檢查人等必填資訊後，選擇 「 確定新增 」。
 
+![](../assets/images/97a46b3573cb4aa5.png)
 
-![](../assets/images/4FDOBHcuy7mFjnBA6fIp.png)
+![](../assets/images/38894d8c8e9adc38.png)
 
+![](../assets/images/238af17ed8fce96b.png)
 
-![](../assets/images/1zaoxMCc05rv5jHbmIxR.png)
-
-
-![](../assets/images/09vcK26SM6E4rRHnV74S.png)
-
-
-![](../assets/images/GOlJRbixa5XXBh8KSqAD.png)
+![](../assets/images/81593316ef52a948.png)

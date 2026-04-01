@@ -1,112 +1,81 @@
-# 會議紀錄
+---
+description: Meeting Minutes
+---
 
-Meeting Minutes
+# 會議紀錄
 
 會議紀錄功能可協助您建立會議、待辦事項，並將會議紀錄透過 E-mail 發送給與會人員，也可以透過待辦事項建立派工單及釋疑單，方便管理您的作業流程。
 
-
-# 建立會議
-
+## 建立會議
 
 進入專案會議紀錄介面後，點擊頁面右側的 「 建立會議 」 ，填寫會議相關資訊後即可建立會議。
 
+![](../assets/images/1e3432dff6acb853.png)
 
-![](../assets/images/olLR278kcTeOyIRnCi3H.png)
-
-
-# 搜尋會議紀錄
-
+## 搜尋會議紀錄
 
 若會議記錄較多，可透過列表上方的搜尋列查找所需的會議紀錄。
 
+![](../assets/images/563ba4a9269ba718.png)
 
-![](../assets/images/fyKdHYWPLkhoFzbaMT9u.png)
-
-
-# 會議紀錄詳細內容
-
+## 會議紀錄詳細內容
 
 點擊會議列表中指定的會議紀錄，可查看會議紀錄的詳細內容。可透過頁面上方切換 「 會議資訊 」 及 「 議題討論 」 頁面。
 
-
-## 會議資訊
-
+### 會議資訊
 
 可在會議資訊畫面中編輯**會議資訊**、**與會人名單**，並上傳**會議相關附件**。
 
+![](../assets/images/a6879bf3e827e2d3.png)
 
-![](../assets/images/kI7J3imceFHQuvguKTJJ.png)
-
-
-### 會議資訊
-
+#### 會議資訊
 
 點選 「 編輯 」 即可編寫或修改會議資訊。編輯完畢後，按 「 儲存變更 」 即可完成。
 
+![](../assets/images/f618bbbf0fd5107a.png)
 
-![](../assets/images/CbHasYMbhLqJFRSYTexU.png)
-
-
-### 與會人
-
+#### 與會人
 
 點選 「 編輯 」，即可編寫或修改與會人資訊。
-
 
 若與會人已有 Jobdone 帳號，請點選 「 選擇人員 ( 系統帳號 ) 」 ，從專案人員名單內選擇參與會議人員。
 
 
 !!! info
-    設定專案人員名單可參考[專案經理 / 專案成員]()、[相關成員]()、[協力廠商 / 外部聯絡人]()。
+    設定專案人員名單可參考[**專案經理 / 專案成員**](../project_level/member)、[**相關成員**](../project_level/xiang-guan-cheng-yuan)、[**協力廠商 / 外部聯絡人**](../project_level/contractor)。
 
 
 若與會人尚未註冊 Jobdone 帳號，點選 「 ＋自定義與會人 」 新增，填寫人員的名稱及 E-mail。
 
+![](../assets/images/e31eb705960461b4.png)
 
-![](../assets/images/CLz9a1fmg9iQs0YwHG0y.png)
-
-
-### 會議相關附件
-
+#### 會議相關附件
 
 點選 「 上傳 」 即可上傳會議相關附件檔案。選擇檔案後，按 「 新增附件 」 即可完成上傳。
 
+![](../assets/images/875986e61e52b67c.png)
 
-![](../assets/images/l9WfSzMFqHshlwY8RGz2.png)
-
-
-## 議題討論
-
+### 議題討論
 
 可在議題討論畫面中編輯**會議總結**及**會議議題**。
 
+![](../assets/images/491c7013f961c70b.png)
 
-![](../assets/images/cY4sL0jAa7HZAsXroqHq.png)
-
-
-### 會議總結
-
+#### 會議總結
 
 點選 「 編輯 」 即可編寫或修改整體結論。編輯完畢後，按 「 儲存變更 」 即可完成。
 
+![](../assets/images/46fc18cad3b9b790.png)
 
-![](../assets/images/0B2RapqCnLKZw5ObtTcM.png)
-
-
-### 會議議題
-
+#### 會議議題
 
 點選 「 建立議題 」 填寫議題主旨及備註內容，填寫完畢後按 「 儲存變更 」 。可針對每一議題逐條填寫**決議內容**、該議題延伸出的**待辦事項**，並上傳**議題相關附件**。
 
+![](../assets/images/f68c9da36f5dc164.png)
 
-![](../assets/images/LZxG6noVP5GWDDqUxrsQ.png)
+![](../assets/images/683dc9c7105a4cf1.png)
 
-
-![](../assets/images/KFvcc8jJd64EHCwTIugv.png)
-
-
-# 歸檔封存
-
+## 歸檔封存
 
 會議紀錄皆填寫完畢後，可點選頁面右上角 「 整理完成，歸檔封存 」 。
 
@@ -115,28 +84,20 @@ Meeting Minutes
     歸檔封存後，便無法再更動紀錄內容。
 
 
-![](../assets/images/uhzGeUxYC5DarA8egkyr.png)
+![](../assets/images/cec43bfeb3b025d5.png)
 
+## 發起派工單 / 釋疑單
 
-# 發起派工單 / 釋疑單
+會議紀錄****歸檔後****，可在議題討論頁面中的 「 待辦事項 」 中發起[**派工單**](../project_level/zhuan-an-pai-gong-dan)或[**釋疑單**](../account/rfi)。
 
-
-會議紀錄**歸檔後**，可在議題討論頁面中的 「 待辦事項 」 中發起[派工單]()或[釋疑單]()。
-
-
-# 發送會議紀錄報告 / 列印報告
-
+## **發送會議紀錄報告 / 列印報告**
 
 點選會議列表中的 「 預覽 」 可查看會議紀錄內容，並可列印 / 下載報告或發送會議紀錄報告給與會人員。
 
+![](../assets/images/2a7e315a9394e5af.png)
 
-![](../assets/images/AqiJS89lOViDGq5BxMOY.png)
-
-
-# 會議待辦事項
-
+## 會議待辦事項
 
 點選左側選單的 「 會議待辦事項 」，會顯示本專案已歸檔之會議的待辦事項清單。
 
-
-![](../assets/images/X2uaSVf2Hu5bQydKTKfE.png)
+![](../assets/images/9115a0718d8341fc.png)

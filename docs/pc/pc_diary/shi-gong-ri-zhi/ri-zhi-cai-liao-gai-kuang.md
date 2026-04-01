@@ -1,12 +1,15 @@
+---
+description: 紀錄當日使用到的材料、使用數量、備註等相關資訊。
+---
+
 # 日誌 / 材料概況
 
-紀錄當日使用到的材料、使用數量、備註等相關資訊。
 
 !!! warning
-    填寫日誌其他內容之前，必須先填寫[基本資訊]()。
+    填寫日誌其他內容之前，必須先填寫[**基本資訊**](ri-zhi-ji-ben-zi-xun)。
 
 
-# 編輯材料概況
+## 編輯材料概況
 
 1. 進入施工日誌詳情後，點選 「 材料概況 」。
 2. 選擇協力公司後，用篩選器根據條件選擇材料（條件設定後要按一下放大鏡按鈕！）
@@ -14,16 +17,13 @@
 
 
 !!! info
-    若尚未設定材料，請先至專案介面設定[材料管理]()。
+    若尚未設定材料，請先至專案介面設定[**材料管理**](../../../project_level/materials)。
 
 
-![](../../../assets/images/F6ei8pmUzG9wcb4XNuEa.png)
+![](../../../assets/images/945789c7cb352752.png)
 
+![](../../../assets/images/1ae949b4db4aad21.png)
 
-![](../../../assets/images/sxFKTceAO0BmK9LzSueO.png)
+![](../../../assets/images/ffe9821f44b532d8.png)
 
-
-![](../../../assets/images/qAlw0yn20HkEO0hBV8a7.png)
-
-
----
+***

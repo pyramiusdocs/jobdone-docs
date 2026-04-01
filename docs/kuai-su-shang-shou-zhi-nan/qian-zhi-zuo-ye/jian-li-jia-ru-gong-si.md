@@ -1,26 +1,19 @@
+# 建立 / 加入公司
 
-# 建立公司
-
+## 建立公司
 
 帳號創建完成後，若您是公司第一個使用者，請點選 「 建立公司 」，輸入公司資料後即可建立公司。
 
+![若您是公司第一個使用者，點選 「 建立公司 」](../../assets/images/6506471e7947045c.png)
 
-![](../../assets/images/M9rwyHlvRRDM5xv1tcd4.png)
+![輸入公司資料後即可建立公司](../../assets/images/a0b0f4e2e6d7f220.png)
 
+### 尋找我的公司
 
-![](../../assets/images/lQa62ucwWCtYRCJi2pau.png)
+如果您的公司已經正在使用 Jobdone 系統，請點選 「 尋找我的公司」，搜尋公司後申請加入。申請後可在畫面上看到申請狀態，請聯繫公司內擁有 [**帳號管理**](../../company_level/member)[**權限**](../../company_level/member) 的人通過您的申請。
 
+![若您的公司已經正在使用 Jobdone 系統，請點選 「 尋找我的公司 」](../../assets/images/cfd9974fa84f8b95.png)
 
-## 尋找我的公司
+![輸入公司名稱搜尋後，點選 「 申請加入 」](../../assets/images/5df972327d44f97d.png)
 
-
-如果您的公司已經正在使用 Jobdone 系統，請點選 「 尋找我的公司」，搜尋公司後申請加入。申請後可在畫面上看到申請狀態，請聯繫公司內擁有 [帳號管理]()[權限]() 的人通過您的申請。
-
-
-![](../../assets/images/O8pUeZiWzTRi4EOPIfAM.png)
-
-
-![](../../assets/images/hlaVE9boFKXI4cNzMige.png)
-
-
-![](../../assets/images/DFxqJjrqKcT10oCNp3gs.png)
+![可在畫面上看到申請狀態，請聯繫公司內擁有 「 帳號管理權限 」 的人通過申請](../../assets/images/ef3cda765d26a80c.png)

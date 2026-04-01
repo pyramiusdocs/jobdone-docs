@@ -2,14 +2,9 @@
 
 建地結構用來描述及劃分建物的組成結構，可依照需求建立適合的建地結構。
 
-
-# 新增 / 編輯 / 刪除節點
-
+## 新增 / 編輯 / 刪除節點 <a href="#create" id="create"></a>
 
 點選 「 ＋ 」 按鈕，即可建立節點，也可以點選 「 🖊️ 」 圖案編輯或刪除節點。
 
-
-![](../assets/images/JkWJSD8dobhvhbauysQg.png)
-
-
+![](../assets/images/98fa6fb099622c95.png)
 

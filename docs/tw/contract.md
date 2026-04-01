@@ -1,21 +1,22 @@
+---
+description: Service Contract
+---
+
 # 案場合約
 
-Service Contract
 
 !!! info
     一個客戶可以有多個案場，但每個案場，只能與一個派遣的區域分公司關聯。
 
 
-# 步驟
+## 步驟
 
-1. 選擇客戶。（您必須先[建立客戶]()）
+1. 選擇客戶。（您必須先[建立客戶](customer)）
 2. 輸入案場名稱、地址。
 3. 選擇負責的區域分公司。
 4. 建立合約約定的工種及單價。
 5. 輸入其它欄位。
 
-
-![](../assets/images/es2fWtPGFHNV3Z8iL2aB.png)
-
+![](../assets/images/01dfd8d91f6e6542.png)
 
 建立案場合約後，即可進行點工派遣。

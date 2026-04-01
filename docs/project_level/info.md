@@ -1,92 +1,86 @@
 # 專案資訊
 
+
 !!! info
     1. 僅有該專案的成員才能進入專案，且只有該專案的「專案經理」才可編輯基本資訊。
     2. 專案資料編輯僅能在網頁版操作。
 
 
-# 網頁版
+## 網頁版
+
+### 基本資訊
+
+1.  使用專案經理帳號進入基本資料頁面，點選編輯按鈕，可修改基本資訊。<br>
+
+    ![](../assets/images/7ad106d180f80dde.png)
 
 
-## 基本資訊
+2.  修改完成後，按下儲存可完成修改；按下取消可恢復原有資料。<br>
 
-1. 使用專案經理帳號進入基本資料頁面，點選編輯按鈕，可修改基本資訊。
- 
-2. 修改完成後，按下儲存可完成修改；按下取消可恢復原有資料。
- 
-
-
-## 專案角色資訊
-
-1. 在專案角色資訊點選「編輯資訊」，可編寫資訊。
-
-2. 完成後，按下儲存可完成修改；按下取消可恢復原有資料。
+    ![](../assets/images/954043b5150bf291.png)
 
 
 
-## 功能開關
+### 專案角色資訊
 
-1. 點選「編輯開關」按鈕，可調整該專案可使用之功能。
+1.  在專案角色資訊點選「編輯資訊」，可編寫資訊。<br>
 
-2. 按下儲存可完成修改；按下取消可恢復原有功能設定。
+    ![](../assets/images/28e420a703977bdc.png)
+2.  完成後，按下儲存可完成修改；按下取消可恢復原有資料。<br>
 
+    ![](../assets/images/3f67ace2a89a055f.png)
 
-## 與監造 / 營造單位的專案關聯
+### 功能開關
 
+1.  點選「編輯開關」按鈕，可調整該專案可使用之功能。<br>
+
+    ![](../assets/images/12fd6ccf4a33b66c.png)
+2.  按下儲存可完成修改；按下取消可恢復原有功能設定。
+
+    ![](../assets/images/84ecc6da90581e4a.png)
+
+### 與監造 / 營造單位的專案關聯 <a href="#link_project" id="link_project"></a>
 
 與監造 / 營造單位的專案關聯後，能夠直接透過 Jobdone 分享表單，協助您們更方便地進行工地現場管理。
-
 
 有兩種方式可以關聯監造 / 營造單位的專案，您可於下圖紅框圈起處自行切換，分別為：
 
 1. 產生專案驗證碼給監造 / 營造單位
 2. 輸入監造 / 營造單位的專案驗證碼
 
+![](../assets/images/f6b7f231b681b59b.png)
 
-![](../assets/images/nRhpwsyCCki54nYSTctz.png)
-
-
-## └ 產生專案驗證碼
-
+### └ 產生專案驗證碼
 
 點選「產生新的驗證碼」按鈕（如下左圖紅框圈起處），由系統產生一組具有時效性的驗證碼（右圖），並將這組代碼複製並分享給監造 / 營造單位。
 
+<div>![](../assets/images/1ce506205720d999.png) ![](../assets/images/7ca740cefb27b084.png)</div>
 
-![](../assets/images/q5DbsFQPpXqDmHk8ZTLP.png)
-
-
-![](../assets/images/w6JgREWLirBAgm8yhonY.png)
-
-
-## └ 輸入專案驗證碼
-
+### └ 輸入專案驗證碼
 
 收到來自監造 / 營造單位的驗證碼，您可於下圖的輸入框輸入或貼上該代碼，並點選「關聯」。
 
-
-![](../assets/images/e64ozW79HoR4J1unZpny.png)
-
+![](../assets/images/99a317d2903db9e0.png)
 
 關聯成功後，畫面會長這個樣子：
 
+![](../assets/images/1fbcfcf12cc29abc.png)
 
-![](../assets/images/CL4mW1yoFioMJ7iDr2yU.png)
+***
 
-
----
-
-
-# APP
+## APP
 
 
 !!! info
     App上僅能查看專案資訊，無法編輯。
 
-1. 登入後，點選專案清單，並選擇要查看的專案。
-  
-2. 點選專案資訊
-  
-3. 即可查看專案的基本資料。
+
+1. 登入後，點選專案清單，並選擇要查看的專案。\
+   ![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FKK0e0NA6uRSsxl3raSKy%2F01.jpg?alt=media\&token=5674da9c-0056-453e-8a51-5d041ad6cb9a)  ![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FCNv57JpyqOcn5KvZqeQn%2F02.jpg?alt=media\&token=f15aeba0-d177-4137-bd88-3ad09295bd36)
+2. 點選專案資訊\
+   ![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FkYRxSxHUe62GpZsds75Y%2F03.jpg?alt=media\&token=d20c8e0d-fc9b-42d6-b7cb-4aacac5c0592)  ![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2Fe3aXUrqQTDs7ob9wXceR%2F04.jpg?alt=media\&token=09141977-cf7d-46fa-ada2-f1ce6fd41cc3)
+3. 即可查看專案的基本資料。\
+   ![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2F6Ky5Jwom3Xs4XxtQdKNb%2F05.jpg?alt=media\&token=40c04e7b-e1be-452a-b390-2dd7684abfd8)
 
 
 
@@ -94,9 +88,4 @@
 
 
 
-
-
-
-
-
-使用請登入  【 [https://www.jobdone.cc](https://www.jobdone.cc) 】
+使用請登入  【 [**https://www.jobdone.cc**](https://www.jobdone.cc) 】

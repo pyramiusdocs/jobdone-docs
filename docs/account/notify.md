@@ -1,32 +1,25 @@
+---
+description: Notification
+---
+
 # 通知
-
-Notification
-
 
 
 
 通知是與個人相關的事件，用來提示您有流程或工作交辦到你的手上。
 
+***
 
----
-
-
-# 網頁版
-
+## 網頁版
 
 登入後，點選左下角的 「 通知 」 按鈕，即可查看所有收到的通知。
 
+![](../assets/images/71553012179c72c2.png)
 
-![](../assets/images/AvcIbjCDhE8t6k1Fic2D.png)
+![](../assets/images/b287ba059500d8a8.png)
 
-
-![](../assets/images/7jN2qNL77GGQTiDldU95.png)
-
-
-# APP
-
+## APP
 
 登入 APP 後，點選右上角的 「 通知 」 按鈕，即可查看所有收到的通知。
 
-
-    
+![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FkFkLiq6glBhOVFAEj1Lu%2FIMG_0321.jpg?alt=media\&token=f6ee3e5b-ac13-4c4f-bffe-9a07f64b2957)    ![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FvcOMVI2KU3pNXPCedIQW%2FIMG_0323.jpg?alt=media\&token=b6407871-a158-4681-97d7-f33cb82ba103)

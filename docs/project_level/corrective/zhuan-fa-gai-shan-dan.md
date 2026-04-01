@@ -1,6 +1,8 @@
-# 轉發改善單
+---
+description: Reassign
+---
 
-Reassign
+# 轉發改善單
 
 轉發功能可在發出改善單後，修改或指派新的受文者。
 
@@ -11,8 +13,6 @@ Reassign
 
 進入專案改善單的頁面後，選擇要轉發的改善單，點選 「 轉發他人 」，即可重新指派受文者。
 
+![](../../assets/images/17f8573ffa7602e3.png)
 
-![](../../assets/images/e0zz4MPYt9DYo61vzSOK.png)
-
-
-![](../../assets/images/BdV1XflkSm1ZDOUNPgMI.png)
+![](../../assets/images/1e36d8db08223a0c.png)

@@ -1,130 +1,96 @@
 # 填寫改善單
 
----
+***
 
+## 網頁版
 
-# 網頁版
+### 進入改善單
 
+* 使用者登入帳號後，在左側選單點選 「 我的改善單 」 進入改善單列表。
 
-## 進入改善單
+![](../../assets/images/6b9a2d6e892740f6.png)
 
-- 使用者登入帳號後，在左側選單點選 「 我的改善單 」 進入改善單列表。
+### 改善單填寫
 
+* 進入改善單列表後，點選改善單，填寫改善計畫／改善回報。
 
-![](../../assets/images/9P0QLAsEwEJyHgp3ir7q.png)
+![](../../assets/images/b10dedd50eb253e2.png)
 
+![](../../assets/images/618eabe96c8d4b2a.png)
 
-## 改善單填寫
+### 填寫完畢
 
-- 進入改善單列表後，點選改善單，填寫改善計畫／改善回報。
+* 若改善單不會馬上送出，可點選 「 儲存 」 暫不發送。
 
+![](../../assets/images/69a865124c504aef.png)
 
-![](../../assets/images/uizbLMp3JLfGKAfniGar.png)
+* 若改善單不需內部審核，可直接點選 「 完成並送出改善回報 」 。
 
+![](../../assets/images/99ee84e599e58bb6.png)
 
-![](../../assets/images/pxFaVq7aHfza1N39kXLk.png)
-
-
-## 填寫完畢
-
-- 若改善單不會馬上送出，可點選 「 儲存 」 暫不發送。
-
-
-![](../../assets/images/YBpMZNEptpSEiWKT0Zhg.png)
-
-- 若改善單不需內部審核，可直接點選 「 完成並送出改善回報 」 。
-
-
-![](../../assets/images/v6SI2wcfSvfLfkkAE6L4.png)
-
-- 若改善單須經內部審核
+* 若改善單須經內部審核
 
 1. 點選 「 完成改善計畫，內部審核 」 ，即可選擇審核人，送出後開始進行內部審核。
 2. 內部審核通過後，即可送出改善計畫／改善回報給發文方。
 
+![](../../assets/images/749a1fc26248f0a3.png)
 
-![](../../assets/images/UOuw4CPmTxR41Xf3QxaQ.png)
+<div align="left">![](../../assets/images/553f845e412ba245.png)</div>
 
+![](../../assets/images/ab5b802bb7adbf46.png)
 
-![](../../assets/images/96mRyCjvGZaQSDW6YgD2.png)
-
-
-![](../../assets/images/30lHc1c3TtgVGJgPBHCY.png)
-
-
-![](../../assets/images/eEBW8hZDulJVNOGTC5a1.png)
+![](../../assets/images/856d5c7f6cba8987.png)
 
 
 
+***
 
+## App
 
----
+### 進入改善單
 
+* 登入App後，進入 「 我的待辦事項 」 ，在 「 待我處理 」 分頁中可查看未處理的改善單。
 
-# App
+\
+![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FeLBeKEqNA0SFmbpteowl%2F%E6%94%B9%E5%96%84%E5%96%AE%E5%9B%9E%E5%A0%B1-1.jpg?alt=media\&token=6587fb0e-d336-4290-8fad-901a08c88ef8)  ![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2Fjoowg8Nurc76BLVmHCfT%2F%E6%94%B9%E5%96%84%E5%96%AE%E5%9B%9E%E5%A0%B1-2.jpg?alt=media\&token=d08f272a-9c59-40a8-b389-83fac89134d4)<br>
 
+### 改善單填寫
 
-## 進入改善單
+* 點選 「 完整資訊 」 可查看該張改善單的相關資訊。
 
-- 登入App後，進入 「 我的待辦事項 」 ，在 「 待我處理 」 分頁中可查看未處理的改善單。
+\
+![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FiJejOkWiwVRz6uVPMd5i%2F%E6%94%B9%E5%96%84%E5%96%AE%E5%9B%9E%E5%A0%B1-3.jpg?alt=media\&token=5eefe831-f94c-4bd7-b88d-9e72b8ebae9a)  ![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FObYR6U79L715HwAqeyYq%2F%E6%94%B9%E5%96%84%E5%96%AE%E5%9B%9E%E5%A0%B1-4.jpg?alt=media\&token=1bd999a3-ffd9-4881-b81e-723f27e33446)<br>
 
+* 點選 「 編輯 」  按鈕，即可填寫改善計畫／改善回報相關資訊。
 
+\
+![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FGhlpfkKm4CNlFFHh9zMK%2F%E6%94%B9%E5%96%84%E5%96%AE%E5%9B%9E%E5%A0%B1-5.jpg?alt=media\&token=d92ab1f2-6739-4f54-927f-e0adcd0ee845)  ![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FYhzawF8ciCZhfYgO8KWA%2F%E6%94%B9%E5%96%84%E5%96%AE%E5%9B%9E%E5%A0%B1-6.PNG?alt=media\&token=bf7b6c2e-df64-4b66-873b-f1e892a62316)\
+![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FiIKmmbOXbdkSJ4PgipO5%2F%E6%94%B9%E5%96%84%E5%96%AE%E5%9B%9E%E5%A0%B1-7.PNG?alt=media\&token=3c5402a5-f952-40f4-a831-d66e584d166a)
 
-  
+### 填寫完畢後
 
-
-
-## 改善單填寫
-
-- 點選 「 完整資訊 」 可查看該張改善單的相關資訊。
-
-
-
-  
-
-
-- 點選 「 編輯 」  按鈕，即可填寫改善計畫／改善回報相關資訊。
-
-
-
-  
-
-
-
-## 填寫完畢後
-
-- 若改善單需送交內部審核
+* #### 若改善單需送交內部審核
 
 1. 點選 「 填寫完成 」 及可送交內部審核。
 
+\
+![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FYwzIdmwxzMqJxjg3SfaA%2F%E6%94%B9%E5%96%84%E5%96%AE%E5%9B%9E%E5%A0%B1-8.jpg?alt=media\&token=3a98e03d-3081-408e-8034-a988aa3a36c1)  ![](../../assets/images/424033ba33114fad.jpg)  \
+![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FGZB7gYHFeqYipEe40OSM%2F%E6%94%B9%E5%96%84%E5%96%AE%E5%9B%9E%E5%A0%B1-10.PNG?alt=media\&token=e0a4ae6c-c471-4c7e-96a9-f52117d5d22f) ![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FHeFHJ0D28Wvk5sjtzZBp%2F%E6%94%B9%E5%96%84%E5%96%AE%E5%9B%9E%E5%A0%B1-11.jpg?alt=media\&token=2c33625b-4fb4-4510-a39b-72c2157fcaec) <br>
 
+2. 提交內部審核後的改善單可在 「 審核中 」 查看，如須修改改善單，可點選 「修改內容」 將改善單從內部審核流程退回修改。
 
-    
-  
+\
+![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FGwt53KFstHPTH2CX9j5U%2F%E6%94%B9%E5%96%84%E5%96%AE%E5%9B%9E%E5%A0%B1-12.jpg?alt=media\&token=e41ceede-1dbb-49ed-86a6-e202dcb10718)  ![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FJHyW1nQMMovtQDKmoYGN%2F%E6%94%B9%E5%96%84%E5%96%AE%E5%9B%9E%E5%A0%B1-13.jpg?alt=media\&token=45273a4c-a50e-453f-a0bd-96080fe77f6b)<br>
 
+* 如不須內部審核，可直接送出改善計畫／改善回報給發文方。
 
-1. 提交內部審核後的改善單可在 「 審核中 」 查看，如須修改改善單，可點選 「修改內容」 將改善單從內部審核流程退回修改。
-
-
-
-  
-
-
-- 如不須內部審核，可直接送出改善計畫／改善回報給發文方。
-
-
+\
+![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FrOcqOxCCgOKLQnjBc3YK%2FIMG_0504.jpg?alt=media\&token=af447382-a8b1-4589-8335-175929f117df)
 
 
 
+* 已送出回報給發文者的改善單可在 「已回報」 分頁中查看。
 
-
-
-- 已送出回報給發文者的改善單可在 「已回報」 分頁中查看。
-
-
-
-
-
-
-
+\
+![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FG4cHO1JrQE3Z6yRHZPKC%2FIMG_0505.jpg?alt=media\&token=72b6d443-3393-43df-8558-26cbbf92ddf6)<br>
 

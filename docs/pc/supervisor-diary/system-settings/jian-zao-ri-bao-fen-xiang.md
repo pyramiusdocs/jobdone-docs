@@ -1,30 +1,28 @@
+---
+description: 可將監造日報設定分享給 「 營造單位 」 。
+---
+
 # 監造日報分享
 
-可將監造日報設定分享給 「 營造單位 」 。
 
 !!! warning
-    監造日報設定前，請先將您的專案與監造 / 營造單位的專案進行[關聯]()。
+    監造日報設定前，請先將您的專案與監造 / 營造單位的專案進行[**關聯**](../../../../project_level/info#link_project)。
 
 
-# 分享監造日報
+## 分享監造日報 <a href="#id-01-she-ding-ri-qi-qu-jian" id="id-01-she-ding-ri-qi-qu-jian"></a>
 
 1. 點選畫面右上角的 「 日期區間設定 」 ，開啟設定管理介面。
 2. 設定想要分享的監造日報起訖日期，按下 「 儲存變更 」 即可。
 
+![點選畫面右上角的 「 日期區間設定 」 ，開啟設定管理介面。](../../../assets/images/99c7a61cc0df2e35.png)
 
-![](../../../assets/images/NDxm6nQdFipYGwLGwhdV.png)
+![設定想要分享的監造日報起訖日期，按下 「 儲存變更 」 即可。](../../../assets/images/06a41152912a35a3.png)
 
-
-![](../../../assets/images/53oAlMw31DnbxC9Oeqqj.png)
-
-
-# 查看營造分享的施工日誌
+## 查看營造分享的施工日誌
 
 1. 與營造單位關聯後，左側的功能選單會出現 「 關聯的施工日誌 」  ，點擊進入關聯的施工日誌頁面。
 2. 點擊列表最右方的檢視按鈕，即可開啟監造日報的內容。
 
+![](../../../assets/images/27d5b79908412513.png)
 
-![](../../../assets/images/3eFKZforz4uttRBKu24j.png)
-
-
-![](../../../assets/images/QP0mrgunuzx6RaVwaiby.png)
+![](../../../assets/images/93191e13bbdb0d0d.png)

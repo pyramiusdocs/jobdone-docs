@@ -1,8 +1,10 @@
+---
+description: Change Password
+---
+
 # 修改密碼
 
-Change Password
-
----
+***
 
 
 !!! warning
@@ -11,23 +13,16 @@ Change Password
 
 
 
+#### 一、進入個人資訊頁面，點選 「 修改密碼 」 。
 
-### 一、進入個人資訊頁面，點選 「 修改密碼 」 。
+![](../assets/images/80bf55b8ea8783f2.png)
 
+![](../assets/images/f60c96f39c2fba86.png)
 
-![](../assets/images/0DCv6pFmPd1rY0fmntXT.png)
+#### 二、輸入想要變更的密碼，輸入完畢後點選 「 變更密碼 」。
 
+![](../assets/images/425fa71e1f5a85f2.png)
 
-![](../assets/images/8a2rjN9Va6PO0FhuXFib.png)
+#### 三、跳出 「 密碼更新成功 」 即可。
 
-
-### 二、輸入想要變更的密碼，輸入完畢後點選 「 變更密碼 」。
-
-
-![](../assets/images/ANimVwRIqLxBoDxf3EIM.png)
-
-
-### 三、跳出 「 密碼更新成功 」 即可。
-
-
-![](../assets/images/olW9zOG59fn6h1UdgrLM.png)
+![](../assets/images/e6b5deb93de52eb3.png)

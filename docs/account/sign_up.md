@@ -1,6 +1,8 @@
-# 註冊
+---
+description: Sign Up
+---
 
-Sign Up
+# 註冊
 
 
 
@@ -8,9 +10,7 @@ Sign Up
 !!! info
     使用網頁版或 APP 都可以註冊個人帳號。
     
-    
     若要同時建立公司資料，請使用網頁版。
-
 
 
 
@@ -19,139 +19,103 @@ Jobdone 的帳號是屬於個人所擁有，您可以自行設定顯示名稱、
 
 
 
+## 簡易流程圖
 
+![](../assets/images/07acd6282f05aed2.png)
 
-# 簡易流程圖
+## 網頁版
 
+#### 一、建立帳號 ID 與密碼
 
-![](../assets/images/fLvFVip0GphbxxrgmVVf.png)
+* 進入[**註冊頁面**](https://jobdone.cc/Index)，建立帳號ID與密碼。
 
+![](../assets/images/cefed94bfc8ab60f.png)
 
-# 網頁版
+#### 二、驗證手機
 
+* 輸入手機號碼，並接收系統發送的驗證碼。
 
-### 一、建立帳號 ID 與密碼
+**若無法收到驗證簡訊，請關閉 Whoscall 等類型的的阻擋軟體再嘗試。**
 
-- 進入[註冊頁面](https://jobdone.cc/Index)，建立帳號ID與密碼。
+![](../assets/images/5dde3ac231e8f98f.jpg)
 
+#### 三、設定個人檔案
 
-![](../assets/images/EjU4hAe22wMKwUJlKM9h.png)
+* 請輸入您的個人資料。
 
-
-### 二、驗證手機
-
-- 輸入手機號碼，並接收系統發送的驗證碼。
-
-
-若無法收到驗證簡訊，請關閉 Whoscall 等類型的的阻擋軟體再嘗試。
-
-
-![](../assets/images/G1r7HuNz3tURy6IbhVN6.png)
-
-
-### 三、設定個人檔案
-
-- 請輸入您的個人資料。
-
-
-![](../assets/images/OYQBYSIQVWIZuDXuVgng.png)
+![](../assets/images/58139b17be4cd84c.png)
 
 
 !!! warning
-    提醒您：請務必填寫有效的個人信箱，忘記密碼才能重新設定。
+    提醒您：請務必填寫有效的**個人信箱**，忘記密碼才能重新設定。
 
 
-### 四、設定所屬公司
+#### 四、設定所屬公司
 
+**建立公司**
 
-建立公司
+* 如果您是公司第一個使用者，需要為公司建立資料，請點選 「 建立公司 」 。
 
-- 如果您是公司第一個使用者，需要為公司建立資料，請點選 「 建立公司 」 。
+![](../assets/images/a0b0f4e2e6d7f220.png)
 
+**尋找我的公司**
 
-![](../assets/images/lQa62ucwWCtYRCJi2pau.png)
+* 如果您的公司已經正在使用系統，請點選「尋找我的公司」，以便申請加入。
 
+![](../assets/images/5df972327d44f97d.png)
 
-尋找我的公司
+**不需要使用公司功能**
 
-- 如果您的公司已經正在使用系統，請點選「尋找我的公司」，以便申請加入。
+* 如果您打算以個人身份使用，請點選 「 略過，以個人身份使用 」 。
 
+![](../assets/images/1a49c4e080effa4e.png)
 
-![](../assets/images/hlaVE9boFKXI4cNzMige.png)
+#### 五、註冊成功
 
+* 完成註冊個人帳號後，如果您已申請加入您的公司，可在畫面上看到申請狀態，所見畫面如下：
 
-不需要使用公司功能
+![](../assets/images/e7f7d34207e2aa43.png)
 
-- 如果您打算以個人身份使用，請點選 「 略過，以個人身份使用 」 。
+* 如果您已建立／加入公司，畫面如下：
 
+![](../assets/images/49e65ac7e2f8f152.png)
 
-![](../assets/images/JXAoTrDxE0FgicvTjlI7.png)
+* 如果您以個人身份加入，畫面顯示如下：
 
+![](../assets/images/c4fcbf72166098cc.png)
 
-### 五、註冊成功
+***
 
-- 完成註冊個人帳號後，如果您已申請加入您的公司，可在畫面上看到申請狀態，所見畫面如下：
-
-
-![](../assets/images/omUpCRH699WcLeAS45XT.png)
-
-- 如果您已建立／加入公司，畫面如下：
-
-
-![](../assets/images/0uJcAKYWoy2Sox9ZAwe4.png)
-
-- 如果您以個人身份加入，畫面顯示如下：
-
-
-![](../assets/images/XV4DgdDG5oDABJe9pUWh.png)
-
-
----
-
-
-# APP 註冊
+## APP 註冊
 
 
 !!! info
-    APP **僅能註冊個人帳號**，如註冊後需加入公司組織，請參考
+    APP **僅能註冊個人帳號**，如註冊後需加入公司組織，請參考[join\_exit](../company_level/join_exit "mention")
 
 
-### 一、開始註冊
+#### 一、開始註冊
 
-- 開啟 APP 點選註冊按鈕，設定帳號 ID 與密碼。
+* 開啟 APP 點選註冊按鈕，設定帳號 ID 與密碼。
 
+\
+![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2Fp9x0sYd1dupI12V9PDIG%2F%E3%84%8A.jpg?alt=media\&token=dadd05e8-0d1a-4f02-8024-09f7fbf9e4b7)  ![](../assets/images/39eb29955174cd6f.jpg)<br>
 
+#### 二、手機驗證
 
-  
+* 輸入手機號碼，並接收系統發送的驗證碼。
 
+**若無法收到驗證**簡訊，**請關閉 Whoscall 等類型的的阻擋軟體再嘗試。**
 
+\
+![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FyBtcmXsHSFIjNkHzWjmj%2F%E5%95%8A.jpg?alt=media\&token=bd27971e-6e01-48de-9047-8b893ba4d201)<br>
 
-### 二、手機驗證
+#### 三、設定個人檔案
 
-- 輸入手機號碼，並接收系統發送的驗證碼。
+\
+![](../assets/images/e9d23afe727f0328.jpg)<br>
 
+#### 四、註冊成功
 
-若無法收到驗證簡訊，請關閉 Whoscall 等類型的的阻擋軟體再嘗試。
-
-
-
-
-
-
-
-### 三、設定個人檔案
-
-
-
-
-
-
-
-### 四、註冊成功
-
-
-
-
-
-
+\
+![](https://3419978664-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FohH67wtoVrbfIMXiCl2V%2Fuploads%2FY628hWluQxeVt4s4gsao%2F%E3%84%8E%20.jpg?alt=media\&token=f2ec3e2c-931a-4bf3-b2c2-90af6dbef9ab)
 

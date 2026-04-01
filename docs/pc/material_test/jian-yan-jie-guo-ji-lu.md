@@ -1,31 +1,26 @@
+# 檢驗結果紀錄
 
-# 編輯紀錄
+## 編輯紀錄
 
 1. 點選 「 ▽ 」 圖示展開完整表格，可於列表中看到當次申請檢驗的所有材料項目。
 2. 點選 「 編輯記錄 」，即可填寫檢試驗紀錄。
 
-
 我們將檢試驗紀錄分成兩個步驟：
 
-- 在 「 取樣 ( 含送驗 ) 」 的畫面中填寫取樣方式、樣品名稱及數量單位等欄位。
-- 在 「 回填檢驗結果 」 的畫面以填寫試驗日期、試驗結果等欄位。
+* 在 「 取樣 ( 含送驗 ) 」 的畫面中填寫取樣方式、樣品名稱及數量單位等欄位。
+* 在 「 回填檢驗結果 」 的畫面以填寫試驗日期、試驗結果等欄位。
 
+![](../../assets/images/00329e7766f5e129.png)
 
-![](../../assets/images/Qxg2qJd15CYY8NsFumFK.png)
+![](../../assets/images/1a858ef9ad08d88c.png)
 
+![](../../assets/images/e5ffbba10094ad9e.png)
 
-![](../../assets/images/VLIdsUakMaShj3o4YTNR.png)
+![](../../assets/images/14cf21c792b07607.png)
 
+## 列印檢驗結果紀錄
 
-![](../../assets/images/C32KhOhUBquFsI4zJciw.png)
-
-
-![](../../assets/images/tHvyhCO1FFoE0029J7B4.png)
-
-
-# 列印檢驗結果紀錄
-
-1. 完整填寫材料檢試驗結果紀錄後，點擊材料列右側的 「 **⋮ **」，選擇 「 列印檢試驗紀錄 」 
+1. 完整填寫材料檢試驗結果紀錄後，點擊材料列右側的 「 **⋮** 」，選擇 「 列印檢試驗紀錄 」&#x20;
 2. 進入預覽列印的頁面後，點選 「 列印 」 。
 
 
@@ -33,23 +28,19 @@
     為確保列印品質，建議使用 Google 瀏覽器列印。
 
 
-![](../../assets/images/zJLnuQ47lQZVqDQAIP1s.png)
+![](../../assets/images/1d052a1626e198cf.png)
 
+![材料檢試驗紀錄表預覽列印頁面](../../assets/images/c5bd1ea26e78f7fd.png)
 
-![](../../assets/images/UVQai8E6StfGWFwQYez2.png)
-
-
-# 建立改善單
-
+## 建立改善單
 
 若該材料的檢試驗結果不合格，可在選單中選擇 「 建立改善單 」，以利後續的改善追蹤。
 
 
 !!! info
-    成功建立改善單後，若需要進行後續的指派，請參考[專案改善單]()。
+    成功建立改善單後，若需要進行後續的指派，請參考[**專案改善單**](../../project_level/corrective)。
 
 
-![](../../assets/images/riMrjoDAHcuYI4RRbjVr.png)
+![](../../assets/images/7072ac42161cdf6a.png)
 
-
-![](../../assets/images/MUH2KLnjHtN4TR3975th.png)
+![建立改善單畫面](../../assets/images/8cd570a88a8c7e3c.png)

@@ -1,83 +1,59 @@
+# 日報 / 更多紀錄事項
 
-# 其他事項紀錄總表
+## 其他事項紀錄總表
 
-
-## 新增其他事項紀錄
+### 新增其他事項紀錄
 
 1. 選擇其他事項紀錄分頁後，點選右上角 「 ＋新增紀錄 」。
 2. 輸入日期及內容後，選擇 「 新增紀錄 」 即可儲存。
 
+![選擇其他事項紀錄分頁，點選右上角 「 ＋新增紀錄 」。](../../assets/images/96b791428f32bde2.png)
 
-![](../../assets/images/yUFcJ2PL1dXpKvqMNddA.png)
+![輸入日期及內容後，選擇 「 新增紀錄 」 即可儲存。](../../assets/images/8f4b1fbfc94f1fc7.png)
 
+## 會議商談紀錄總表
 
-![](../../assets/images/eBPVwupM7Q6QFvudqtuX.png)
-
-
-# 會議商談紀錄總表
-
-
-## 新增會議商談紀錄
+### 新增會議商談紀錄
 
 1. 選擇會議商談紀錄分頁後，點選右上角 「 ＋新增紀錄 」。
 2. 輸入日期及內容後，選擇 「 新增紀錄 」 即可儲存。
 
+![選擇會議商談紀錄分頁後，點選右上角 「 ＋新增紀錄 」。](../../assets/images/d7c145994a359723.png)
 
-![](../../assets/images/AsiGVD7J46biIqACMnXq.png)
+![輸入日期及內容後，選擇 「 新增紀錄 」 即可儲存。](../../assets/images/56fd6c1947e28524.png)
 
+## 異常回報紀錄總表
 
-![](../../assets/images/gJAO38Kt1WyITIIe1Sy7.png)
-
-
-# 異常回報紀錄總表
-
-
-## 新增異常回報紀錄
+### 新增異常回報紀錄
 
 1. 選擇異常回報紀錄分頁後，點選右上角 「 ＋新增紀錄 」。
 2. 輸入日期及內容後，選擇 「 新增紀錄 」 即可儲存。
 
+![選擇異常回報紀錄分頁後，點選右上角 「 ＋新增紀錄 」。](../../assets/images/85d35d45fe793d9b.png)
 
-![](../../assets/images/J8Tk63IO9cxCpqNPKcoS.png)
+![輸入日期及內容後，選擇 「 新增紀錄 」 即可儲存。](../../assets/images/e8393ab0ea1a03ba.png)
 
+## 近期預定計劃總表
 
-![](../../assets/images/38CVlkE7UIXjr8prO9Ds.png)
-
-
-# 近期預定計劃總表
-
-
-## 新增近期預定計劃
+### 新增近期預定計劃
 
 1. 選擇近期預定計劃分頁後，點選右上角 「 ＋新增紀錄 」。
 2. 輸入日期及內容後，選擇 「 新增計劃 」 即可儲存。
 
+![選擇近期預定計劃分頁後，點選右上角 「 ＋新增紀錄 」。](../../assets/images/ec48e7ec26f7824c.png)
 
-![](../../assets/images/yhi8w3bijT3XK0dEjxWi.png)
+![輸入日期及內容後，選擇 「 新增計劃 」 即可儲存。](../../assets/images/d6e3216670416411.png)
 
-
-![](../../assets/images/FqhKBmKLCmd0NeKwxpCu.png)
-
-
-# 篩選與釘選功能
-
+## 篩選與釘選功能
 
 Jobdone提供 **日期區間** 篩選功能。
 
-
-![](../../assets/images/tk6KQHFqy5mNbo3DmzDg.png)
-
+![日期區間 篩選功能](../../assets/images/b0c182cdf90442b2.png)
 
 
 
-
-# 📓釘選紀錄(將記錄置頂)
-
+## 📓釘選紀錄(將記錄置頂)
 
 如有重要紀錄需要保留於列表的最上方，可 點選列表左側的**星星**進行釘選。再次點選擇取消釘選。
 
-
-![](../../assets/images/kwAArcAv9YVmJ6p2lsUe.png)
-
-
-![](../../assets/images/2mgVUwW0INtjYmOLyikA.png)
+<div align="left">![釘選中狀態](../../assets/images/5b48ac7ad4507de6.png) ![取消釘選狀態](../../assets/images/e9fa2c4399e4e68d.png)</div>

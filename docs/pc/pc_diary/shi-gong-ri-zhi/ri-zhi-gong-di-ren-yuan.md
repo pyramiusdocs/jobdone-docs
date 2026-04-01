@@ -1,12 +1,15 @@
+---
+description: 紀錄當日工地各類型人員數量。
+---
+
 # 日誌 / 工地人員
 
-紀錄當日工地各類型人員數量。
 
 !!! warning
-    填寫日誌其他內容之前，必須先填寫[基本資訊]()
+    填寫日誌其他內容之前，必須先填寫[**基本資訊**](ri-zhi-ji-ben-zi-xun)
 
 
-# 編輯工地人員
+## 編輯工地人員
 
 1. 進入施工日誌詳情後，點選 「 工地人員 」。
 2. 選擇分類後，用篩選器根據條件選擇工種(工別)類型名稱（條件設定後要按一下放大鏡按鈕！）
@@ -14,13 +17,11 @@
 
 
 !!! info
-    若尚未設定工別，請先至專案介面設定[工種(工別)類型]()。
+    若尚未設定工別，請先至專案介面設定[**工種(工別)類型**](../../../project_level/zhuan-an-gong-zhong-gong-bie-lei-xing)。
 
 
-![](../../../assets/images/AbnNQ6hrgPSZoLHKWmAU.png)
+![](../../../assets/images/90fdea059c15004a.png)
 
+![](../../../assets/images/1ccb8a70dc1c54fc.png)
 
-![](../../../assets/images/pj3hHPztsMeRGGqvydRj.png)
-
-
-![](../../../assets/images/4bqjzkrZoTmCgDKfeRt4.png)
+![](../../../assets/images/4ba564e56ccdbbe9.png)

@@ -1,125 +1,95 @@
+---
+description: Setting Observations Template
+---
+
 # 設定專案檢查範本
 
-Setting Observations Template
 
 !!! info
     設定檢查範本僅能在網頁版進行。
 
 
----
+***
 
+## 匯入公司範本 <a href="#import-or-create" id="import-or-create"></a>
 
-# 匯入公司範本
+### 選擇範本
 
+若您已經建立[**公司自主檢查範本**](../../company_level/commonsetting/mainchecklist)，可以點擊 「 匯入公司範本 」 ，點擊 「 選擇範本 」 開啟範本篩選器，設定篩選條件搜尋後，即可將指定項目匯入範本。
 
-## 選擇範本
-
-
-若您已經建立[公司自主檢查範本]()，可以點擊 「 匯入公司範本 」 ，點擊 「 選擇範本 」 開啟範本篩選器，設定篩選條件搜尋後，即可將指定項目匯入範本。
-
-
-「 匯入至...... 」下拉式選單可以指定[分項工程]()，若未指定則會被標示為 「 未分類 」。
+「 匯入至...... 」下拉式選單可以指定[**分項工程**](../../project_level/subdivisional)，若未指定則會被標示為 「 未分類 」。
 
 
 !!! warning
     範本放入該專案後，若後續在公司通用資料設定中更新公司自主檢查範本，專案內的範本**不會受到影響。**
 
 
-![](../../assets/images/gzsTInuXSw5LW39MuF37.png)
+![](../../assets/images/22b73dea6ab5dfa9.png)
 
+![](../../assets/images/7caa434a39e47399.png)
 
-![](../../assets/images/uXjvlB4FP0BrtuNrzYZL.png)
+### 一鍵匯入全部 <a href="#create" id="create"></a>
 
-
-## 一鍵匯入全部
-
-
-使用 「 一鍵匯入全部 」 功能可以直接將整份[公司自主檢查範本]()作為專案範本使用。
+使用 「 一鍵匯入全部 」 功能可以直接將整份[**公司自主檢查範本**](../../company_level/commonsetting/mainchecklist)作為專案範本使用。
 
 
 !!! warning
     若專案有同名範本亦會複製一份新的範本進專案。
 
 
-![](../../assets/images/QrQnwxY7g1a3jtOn8Ix9.png)
+![](../../assets/images/d4fdc6f45cff18c6.png)
 
+## 建立新範本 <a href="#create" id="create"></a>
 
-# 建立新範本
+點選 「 建立新範本 」 即可開始建立專案內的檢查範本。下拉式選單可以指定[**分項工程**](../../project_level/subdivisional)，若未指定則會被標示為 「 未分類 」。  &#x20;
 
+* 條列型可自行新增欄位，添加檢查項目及標準。
+* 檔案型則可上傳您已製作好的檢查表格檔案，供其他成員日後下載使用。
 
-點選 「 建立新範本 」 即可開始建立專案內的檢查範本。下拉式選單可以指定[分項工程]()，若未指定則會被標示為 「 未分類 」。**   **
+![](../../assets/images/0c100e15c1a530e2.png)
 
-- 條列型可自行新增欄位，添加檢查項目及標準。
-- 檔案型則可上傳您已製作好的檢查表格檔案，供其他成員日後下載使用。
+***
 
-
-![](../../assets/images/72Mu1FmTPnzZqL8j0NG5.png)
-
-
----
-
-
-# 設定範本資訊、檢查題目
-
+## 設定範本資訊、檢查題目 <a href="#detail" id="detail"></a>
 
 建立專案檢查範本後，在專案檢查範本列表中會顯示已建立的範本，點選名稱進入詳細資訊設定頁面。
 
+![](../../assets/images/4cfdefdb4a3c7e4e.png)
 
-![](../../assets/images/HlIy7oYP7Yzlf92rhoYk.png)
+### 條列型範本 <a href="#list-detail" id="list-detail"></a>
 
-
-## 條列型範本
-
-
-### 編輯範本資訊
-
+#### 編輯範本資訊 <a href="#list-basicinfo" id="list-basicinfo"></a>
 
 點選右上方 「 更多資訊 」 可查看範本資訊，點選編輯即可修改編輯範本。
 
+![](../../assets/images/451f628523b44b7e.png)
 
-![](../../assets/images/iK30DVCA9QZ42JsSA4ai.png)
-
-
-### 檢查項目分類
-
+#### 檢查項目分類 <a href="#list-categories" id="list-categories"></a>
 
 「 檢查項目分類 」 可自訂類別名稱，將檢查項目加入到類別下，在建立檢查工作時，可依照類別帶入所需的檢查項目。
 
+![](../../assets/images/bb581f2666a59e4c.png)
 
-![](../../assets/images/cyI4cAE22LhoflTsc7RK.png)
-
-
-### 檢查項目
-
+#### 檢查項目 <a href="#list-items" id="list-items"></a>
 
 點選 「 檢查項目 」 按鈕開啟表單，您就可以在任一個分類下新增自主檢查題目。
 
+![](../../assets/images/2220b29e1cb67921.png)
 
-![](../../assets/images/5kJzhVkkpz07mziKkT0U.png)
+### 檔案型範本 <a href="#file-detail" id="file-detail"></a>
 
-
-## 檔案型範本
-
-
-### 自主檢查表基本資訊
-
+#### 自主檢查表基本資訊 <a href="#file-basicinfo" id="file-basicinfo"></a>
 
 詳細資訊頁的上方顯示自主檢查表的詳細資訊，點選右方的「更多資訊」可查看更多詳細資訊。
 
+![](../../assets/images/f901aee547d1ac82.png)
 
-![](../../assets/images/D5jdVg6OPJl2Zqfcj4CX.png)
-
-
-### 檔案管理
-
+#### 檔案管理 <a href="#file-management" id="file-management"></a>
 
 檔案管理功能允許上傳多個檢查用檔案，點選「上傳檔案」開啟上傳區塊。
 
-
 點選 「 上傳檔案 」 開啟上傳檔案對話框，或將檔案拖曳到虛線區塊內進行上傳。
-
 
 選定檔案後，點選「替換」上傳已選定的檔案。
 
-
-![](../../assets/images/pVmMNNC102wEsZnKvmR4.png)
+![](../../assets/images/9062f3e6c81b1782.png)

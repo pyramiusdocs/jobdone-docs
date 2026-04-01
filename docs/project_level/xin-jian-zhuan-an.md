@@ -1,24 +1,16 @@
 # 新建專案
 
-## 新建專案
+### 新建專案
 
+點選右上角的新建專案，依序選擇[**功能模組**](../../mo-zu-gong-neng-zu-he-ji-gong-neng#gong-neng-zu-he) ( 目前包含[**一般建案**](../bc)和[**公共工程**](../pc) )、輸入專案基本資料、選擇專案身份 ( 營造 / 監造 )，並指派負責的專案經理，即可完成建立新專案。
 
-點選右上角的新建專案，依序選擇[功能模組]() ( 目前包含[一般建案]()和[公共工程]() )、輸入專案基本資料、選擇專案身份 ( 營造 / 監造 )，並指派負責的專案經理，即可完成建立新專案。
+![點選右上角的新建專案](../assets/images/384a7fd42c733733.png)
 
+![選擇功能模組 ( 目前包含一般建案和公共工程 )](../assets/images/ee6f352137f6e2b8.png)
 
-![](../assets/images/GWTLBPIAsyogM0Y611mS.png)
+![輸入專案基本資料](../assets/images/98c19287c301aac9.png)
 
+![選擇專案身份 ( 營造 / 監造 )](../assets/images/ca9468778a3e6667.png)
 
-![](../assets/images/EJFpLM2oB0LYuXsroB19.png)
-
-
-![](../assets/images/hJ65ARpWyCNeVR5JjfXY.png)
-
-
-![](../assets/images/gkiRtHQkF767u3d5G3uy.png)
-
-
-![](../assets/images/0dua2jv2klbAtCP8fBge.png)
-
-
+![指派專案經理](../assets/images/94ab0a19d85e9414.png)
 
