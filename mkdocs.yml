@@ -30,7 +30,6 @@ theme:
     - search.highlight
     - search.suggest
     - content.tabs.link
-    - toc.integrate
 
 plugins:
   - search:
@@ -56,174 +55,174 @@ markdown_extensions:
 
 nav:
   - 首頁: index.md
-  - 歡迎使用Jobdone: welcome.md
+  - 歡迎使用Jobdone: 歡迎使用Jobdone.md
   - 快速上手指南:
-      - kuai-su-shang-shou-zhi-nan/index.md
+      - 快速上手指南/index.md
       - 前置作業:
-          - kuai-su-shang-shou-zhi-nan/qian-zhi-zuo-ye/index.md
-          - 註冊: kuai-su-shang-shou-zhi-nan/qian-zhi-zuo-ye/zhu-ce.md
-          - 建立 / 加入公司: kuai-su-shang-shou-zhi-nan/qian-zhi-zuo-ye/jian-li-jia-ru-gong-si.md
-          - 功能授權: kuai-su-shang-shou-zhi-nan/qian-zhi-zuo-ye/gong-neng-shou-quan.md
-          - 加入聯絡人: kuai-su-shang-shou-zhi-nan/qian-zhi-zuo-ye/jia-ru-lian-luo-ren.md
-          - 建立公司專案: kuai-su-shang-shou-zhi-nan/qian-zhi-zuo-ye/jian-li-gong-si-zhuan-an.md
-      - 派工單: kuai-su-shang-shou-zhi-nan/pai-gong-dan.md
-      - 改善單: kuai-su-shang-shou-zhi-nan/gai-shan-dan.md
-      - 釋疑單: kuai-su-shang-shou-zhi-nan/shi-yi-dan.md
-      - 自主/自動檢查表: kuai-su-shang-shou-zhi-nan/zi-zhu-zi-dong-jian-cha-biao.md
-      - 施工日誌: kuai-su-shang-shou-zhi-nan/shi-gong-ri-zhi.md
+          - 快速上手指南/前置作業/index.md
+          - 註冊: 快速上手指南/前置作業/註冊.md
+          - 建立 / 加入公司: 快速上手指南/前置作業/建立-加入公司.md
+          - 功能授權: 快速上手指南/前置作業/功能授權.md
+          - 加入聯絡人: 快速上手指南/前置作業/加入聯絡人.md
+          - 建立公司專案: 快速上手指南/前置作業/建立公司專案.md
+      - 派工單: 快速上手指南/派工單.md
+      - 改善單: 快速上手指南/改善單.md
+      - 釋疑單: 快速上手指南/釋疑單.md
+      - 自主/自動檢查表: 快速上手指南/自主自動檢查表.md
+      - 施工日誌: 快速上手指南/施工日誌.md
   - FAQ:
-      - faq/index.md
-      - 版本比較表: faq/ban-ben-bi-jiao-biao.md
-      - 帳號與費用: faq/zhang-hao-yu-fei-yong.md
-      - 系統疑難排解: faq/xi-tong-yi-nan-pai-jie.md
-      - 系統需求: faq/xi-tong-xu-qiu.md
-      - 裝置設定: faq/zhuang-zhi-she-ding.md
+      - FAQ/index.md
+      - 版本比較表: FAQ/版本比較表.md
+      - 帳號與費用: FAQ/帳號與費用.md
+      - 系統疑難排解: FAQ/系統疑難排解.md
+      - 系統需求: FAQ/系統需求.md
+      - 裝置設定: FAQ/裝置設定.md
   - 個人帳號:
-      - account/index.md
-      - 註冊: account/sign_up.md
-      - 個人資料: account/personinfo.md
-      - 修改密碼: account/changepassword.md
-      - 忘記密碼: account/forgetpassword.md
-      - 通知: account/notify.md
-      - 永久刪除帳號: account/delete.md
+      - 個人帳號/index.md
+      - 註冊: 個人帳號/註冊.md
+      - 個人資料: 個人帳號/個人資料.md
+      - 修改密碼: 個人帳號/修改密碼.md
+      - 忘記密碼: 個人帳號/忘記密碼.md
+      - 通知: 個人帳號/通知.md
+      - 永久刪除帳號: 個人帳號/永久刪除帳號.md
       - 我的改善單:
-          - account/corrective_action/index.md
-          - 填寫改善單: account/corrective_action/tian-xie-gai-shan-dan.md
-          - 受文方內部審核: account/corrective_action/shou-wen-fang-nei-bu-shen-he.md
-      - 我的派工單: account/wo-de-pai-gong-dan.md
+          - 個人帳號/我的改善單/index.md
+          - 填寫改善單: 個人帳號/我的改善單/填寫改善單.md
+          - 受文方內部審核: 個人帳號/我的改善單/受文方內部審核.md
+      - 我的派工單: 個人帳號/我的派工單.md
       - 我的釋疑單( RFI ):
-          - account/rfi/index.md
-          - 發起釋疑單: account/rfi/fa-qi-shi-yi-dan.md
-          - 釋疑單回覆: account/rfi/shi-yi-dan-hui-fu.md
+          - 個人帳號/我的釋疑單(-RFI-)/index.md
+          - 發起釋疑單: 個人帳號/我的釋疑單(-RFI-)/發起釋疑單.md
+          - 釋疑單回覆: 個人帳號/我的釋疑單(-RFI-)/釋疑單回覆.md
   - 公司相關:
-      - company_level/index.md
-      - 建立公司資訊: company_level/regist.md
-      - 加入公司: company_level/join_exit.md
-      - 退出公司: company_level/tui-chu-gong-si.md
-      - 成員權限管理: company_level/member.md
-      - 部門管理: company_level/bu-men-guan-li.md
-      - 付費流程: company_level/payment.md
+      - 公司相關/index.md
+      - 建立公司資訊: 公司相關/建立公司資訊.md
+      - 加入公司: 公司相關/加入公司.md
+      - 退出公司: 公司相關/退出公司.md
+      - 成員權限管理: 公司相關/成員權限管理.md
+      - 部門管理: 公司相關/部門管理.md
+      - 付費流程: 公司相關/付費流程.md
       - 建立專案之前:
-          - company_level/commonsetting/index.md
-          - 新增工種 ( 工別 ) 類型: company_level/commonsetting/xin-zeng-gong-zhong-gong-bie-lei-xing.md
-          - 新增機具類型: company_level/commonsetting/xin-zeng-ji-ju-lei-xing.md
-          - 新增公司檢查範本: company_level/commonsetting/mainchecklist.md
+          - 公司相關/建立專案之前/index.md
+          - 新增工種 ( 工別 ) 類型: 公司相關/建立專案之前/新增工種-(-工別-)-類型.md
+          - 新增機具類型: 公司相關/建立專案之前/新增機具類型.md
+          - 新增公司檢查範本: 公司相關/建立專案之前/新增公司檢查範本.md
   - 專案相關:
-      - project_level/index.md
-      - 專案清單/專案頁面: project_level/project_list.md
-      - 新建專案: project_level/xin-jian-zhuan-an.md
-      - 結案 / 刪除專案: project_level/jie-an-shan-chu-zhuan-an.md
-      - 專案資訊: project_level/info.md
-      - 專案經理 / 專案成員: project_level/member.md
-      - 相關成員: project_level/xiang-guan-cheng-yuan.md
-      - 協力廠商 / 外部聯絡人: project_level/contractor.md
-      - 專案分項工程: project_level/subdivisional.md
-      - 專案工種(工別)類型: project_level/zhuan-an-gong-zhong-gong-bie-lei-xing.md
+      - 專案相關/index.md
+      - 專案清單/專案頁面: 專案相關/專案清單專案頁面.md
+      - 新建專案: 專案相關/新建專案.md
+      - 結案 / 刪除專案: 專案相關/結案-刪除專案.md
+      - 專案資訊: 專案相關/專案資訊.md
+      - 專案經理 / 專案成員: 專案相關/專案經理-專案成員.md
+      - 相關成員: 專案相關/相關成員.md
+      - 協力廠商 / 外部聯絡人: 專案相關/協力廠商-外部聯絡人.md
+      - 專案分項工程: 專案相關/專案分項工程.md
+      - 專案工種(工別)類型: 專案相關/專案工種(工別)類型.md
       - 施工項目:
-          - project_level/construction_item/index.md
-          - 廠商 > 合約格式: project_level/construction_item/chang-shang-he-yue-ge-shi.md
-          - 非廠商 > 合約格式: project_level/construction_item/fei-chang-shang-he-yue-ge-shi.md
-          - 監造單位: project_level/construction_item/jian-zao-dan-wei.md
-      - 施工項目總表: project_level/shi-gong-xiang-mu-zong-biao.md
+          - 專案相關/施工項目/index.md
+          - 廠商 > 合約格式: 專案相關/施工項目/廠商-合約格式.md
+          - 非廠商 > 合約格式: 專案相關/施工項目/非廠商-合約格式.md
+          - 監造單位: 專案相關/施工項目/監造單位.md
+      - 施工項目總表: 專案相關/施工項目總表.md
       - 材料管理:
-          - project_level/materials/index.md
-          - 廠商 > 合約格式: project_level/materials/chang-shang-he-yue-ge-shi.md
-          - 非廠商 > 合約格式: project_level/materials/fei-chang-shang-he-yue-ge-shi.md
-      - 建地結構: project_level/construction_structure.md
-      - 施工圖面: project_level/construction_drawing.md
+          - 專案相關/材料管理/index.md
+          - 廠商 > 合約格式: 專案相關/材料管理/廠商-合約格式.md
+          - 非廠商 > 合約格式: 專案相關/材料管理/非廠商-合約格式.md
+      - 建地結構: 專案相關/建地結構.md
+      - 施工圖面: 專案相關/施工圖面.md
       - 專案改善單:
-          - project_level/corrective/index.md
-          - 發起改善單: project_level/corrective/build.md
-          - 轉發改善單: project_level/corrective/zhuan-fa-gai-shan-dan.md
-          - 改善單審核: project_level/corrective/cap.md
-          - 列印改善報告: project_level/corrective/close.md
-      - 專案派工單: project_level/zhuan-an-pai-gong-dan.md
-      - 文件中心**: project_level/wen-jian-zhong-xin.md
-      - 圖說資料庫**: project_level/tu-shuo-zi-liao-ku.md
-      - 申請與交付**: project_level/submittal.md
-  - 模組、功能組合及功能: mo-zu-gong-neng-zu-he-ji-gong-neng.md
+          - 專案相關/專案改善單/index.md
+          - 發起改善單: 專案相關/專案改善單/發起改善單.md
+          - 轉發改善單: 專案相關/專案改善單/轉發改善單.md
+          - 改善單審核: 專案相關/專案改善單/改善單審核.md
+          - 列印改善報告: 專案相關/專案改善單/列印改善報告.md
+      - 專案派工單: 專案相關/專案派工單.md
+      - 文件中心**: 專案相關/文件中心.md
+      - 圖說資料庫**: 專案相關/圖說資料庫.md
+      - 申請與交付**: 專案相關/申請與交付.md
+  - 模組、功能組合及功能: 模組、功能組合及功能.md
   - 一般建案 BC:
-      - bc/index.md
-      - 一般建案施工日誌: bc/yi-ban-jian-an-shi-gong-ri-zhi.md
+      - 一般建案-BC/index.md
+      - 一般建案施工日誌: 一般建案-BC/一般建案施工日誌.md
       - 檢查表:
-          - bc/qc/index.md
-          - 檢查表設定: bc/qc/basic-settings.md
-          - 設定專案檢查範本: bc/qc/template.md
-          - 建立 / 執行檢查工作: bc/qc/implement-web.md
-          - 審核檢查表: bc/qc/self-check-review-n-sign-web.md
-          - 檢查表複驗: bc/qc/re-web.md
-          - 列印檢查報告: bc/qc/print.md
-      - 影音日誌: bc/media_diary.md
-      - LINE 群組助理: bc/line.md
-      - 會議紀錄: bc/meeting-minutes.md
+          - 一般建案-BC/檢查表/index.md
+          - 檢查表設定: 一般建案-BC/檢查表/檢查表設定.md
+          - 設定專案檢查範本: 一般建案-BC/檢查表/設定專案檢查範本.md
+          - 建立 / 執行檢查工作: 一般建案-BC/檢查表/建立-執行檢查工作.md
+          - 審核檢查表: 一般建案-BC/檢查表/審核檢查表.md
+          - 檢查表複驗: 一般建案-BC/檢查表/檢查表複驗.md
+          - 列印檢查報告: 一般建案-BC/檢查表/列印檢查報告.md
+      - 影音日誌: 一般建案-BC/影音日誌.md
+      - LINE 群組助理: 一般建案-BC/LINE-群組助理.md
+      - 會議紀錄: 一般建案-BC/會議紀錄.md
   - 公共工程 PC:
-      - pc/index.md
+      - 公共工程-PC/index.md
       - 公共工程施工日誌:
-          - pc/pc_diary/index.md
+          - 公共工程-PC/公共工程施工日誌/index.md
           - 施工日誌:
-              - pc/pc_diary/shi-gong-ri-zhi/index.md
-              - 日誌 / 基本資訊: pc/pc_diary/shi-gong-ri-zhi/ri-zhi-ji-ben-zi-xun.md
-              - 日誌 / 施工概況: pc/pc_diary/shi-gong-ri-zhi/ri-zhi-shi-gong-gai-kuang.md
-              - 日誌 / 材料概況: pc/pc_diary/shi-gong-ri-zhi/ri-zhi-cai-liao-gai-kuang.md
-              - 日誌 / 工地人員: pc/pc_diary/shi-gong-ri-zhi/ri-zhi-gong-di-ren-yuan.md
-              - 日誌 / 機具管理: pc/pc_diary/shi-gong-ri-zhi/ri-zhi-ji-ju-guan-li.md
-              - 日誌 / 本日是否需要技術士: pc/pc_diary/shi-gong-ri-zhi/ri-zhi-ben-ri-shi-fou-xu-yao-ji-shu-shi.md
-              - 日誌 / 環安衛確認事項: pc/pc_diary/shi-gong-ri-zhi/ri-zhi-huan-an-wei-que-ren-shi-xiang.md
-              - 日誌 / 工地取樣試驗紀錄、協力廠商辦理事項、重要事項紀錄: pc/pc_diary/shi-gong-ri-zhi/ri-zhi-gong-di-qu-yang-shi-yan-ji-lu-xie-li-chang-shang-ban-li-shi-xiang-zhong-yao-shi-xiang-ji-lu.md
-              - 日誌 / 技術士簽章表: pc/pc_diary/shi-gong-ri-zhi/ri-zhi-ji-shu-shi-qian-zhang-biao.md
-              - 日誌 / 其他紀錄: pc/pc_diary/shi-gong-ri-zhi/ri-zhi-qi-ta-ji-lu.md
-              - 列印日誌: pc/pc_diary/shi-gong-ri-zhi/lie-yin-ri-zhi.md
-          - 日誌 / 更多紀錄事項: pc/pc_diary/ri-zhi-geng-duo-ji-lu-shi-xiang.md
+              - 公共工程-PC/公共工程施工日誌/施工日誌/index.md
+              - 日誌 / 基本資訊: 公共工程-PC/公共工程施工日誌/施工日誌/日誌-基本資訊.md
+              - 日誌 / 施工概況: 公共工程-PC/公共工程施工日誌/施工日誌/日誌-施工概況.md
+              - 日誌 / 材料概況: 公共工程-PC/公共工程施工日誌/施工日誌/日誌-材料概況.md
+              - 日誌 / 工地人員: 公共工程-PC/公共工程施工日誌/施工日誌/日誌-工地人員.md
+              - 日誌 / 機具管理: 公共工程-PC/公共工程施工日誌/施工日誌/日誌-機具管理.md
+              - 日誌 / 本日是否需要技術士: 公共工程-PC/公共工程施工日誌/施工日誌/日誌-本日是否需要技術士.md
+              - 日誌 / 環安衛確認事項: 公共工程-PC/公共工程施工日誌/施工日誌/日誌-環安衛確認事項.md
+              - 日誌 / 工地取樣試驗紀錄、協力廠商辦理事項、重要事項紀錄: 公共工程-PC/公共工程施工日誌/施工日誌/日誌-工地取樣試驗紀錄、協力廠商辦理事項、重要事項紀錄.md
+              - 日誌 / 技術士簽章表: 公共工程-PC/公共工程施工日誌/施工日誌/日誌-技術士簽章表.md
+              - 日誌 / 其他紀錄: 公共工程-PC/公共工程施工日誌/施工日誌/日誌-其他紀錄.md
+              - 列印日誌: 公共工程-PC/公共工程施工日誌/施工日誌/列印日誌.md
+          - 日誌 / 更多紀錄事項: 公共工程-PC/公共工程施工日誌/日誌-更多紀錄事項.md
           - 日誌系統設定:
-              - pc/pc_diary/ri-zhi-xi-tong-she-ding/index.md
-              - 基本設定: pc/pc_diary/ri-zhi-xi-tong-she-ding/ji-ben-she-ding.md
-              - 預計進度設定: pc/pc_diary/ri-zhi-xi-tong-she-ding/yu-ji-jin-du-she-ding.md
-              - 欄位重點提示設定: pc/pc_diary/ri-zhi-xi-tong-she-ding/lan-wei-zhong-dian-ti-shi-she-ding.md
-              - 施工日誌分享: pc/pc_diary/ri-zhi-xi-tong-she-ding/shi-gong-ri-zhi-fen-xiang.md
+              - 公共工程-PC/公共工程施工日誌/日誌系統設定/index.md
+              - 基本設定: 公共工程-PC/公共工程施工日誌/日誌系統設定/基本設定.md
+              - 預計進度設定: 公共工程-PC/公共工程施工日誌/日誌系統設定/預計進度設定.md
+              - 欄位重點提示設定: 公共工程-PC/公共工程施工日誌/日誌系統設定/欄位重點提示設定.md
+              - 施工日誌分享: 公共工程-PC/公共工程施工日誌/日誌系統設定/施工日誌分享.md
       - 公共工程監造日報:
-          - pc/supervisor-diary/index.md
+          - 公共工程-PC/公共工程監造日報/index.md
           - 監造日報:
-              - pc/supervisor-diary/report-detail/index.md
-              - 日報 / 基本資訊: pc/supervisor-diary/report-detail/ri-bao-ji-ben-zi-xun.md
-              - 日報 / 施工概況: pc/supervisor-diary/report-detail/ri-bao-shi-gong-gai-kuang.md
-              - 日報 / 監督依照設計圖說施工、查核材料規格及品質、其他約定監造事項: pc/supervisor-diary/report-detail/ri-bao-jian-du-yi-zhao-she-ji-tu-shuo-shi-gong-cha-he-cai-liao-gui-ge-ji-pin-zhi-qi-ta-yue-ding-jian.md
-              - 日報 / 督導工地職業安全衛生事項: pc/supervisor-diary/report-detail/ri-bao-du-dao-gong-di-zhi-ye-an-quan-wei-sheng-shi-xiang.md
-              - 日報 / 其他應檢附之文件: pc/supervisor-diary/report-detail/ri-bao-qi-ta-ying-jian-fu-zhi-wen-jian.md
-              - 日報 / 其他紀錄: pc/supervisor-diary/report-detail/ri-bao-qi-ta-ji-lu.md
-              - 列印日報: pc/supervisor-diary/report-detail/lie-yin-ri-bao.md
-              - 日報 / 其他紀錄: AMdbDE0Q14fhucG1fWgH.md
-          - 日報 / 更多紀錄事項: pc/supervisor-diary/ri-bao-geng-duo-ji-lu-shi-xiang.md
+              - 公共工程-PC/公共工程監造日報/監造日報/index.md
+              - 日報 / 基本資訊: 公共工程-PC/公共工程監造日報/監造日報/日報-基本資訊.md
+              - 日報 / 施工概況: 公共工程-PC/公共工程監造日報/監造日報/日報-施工概況.md
+              - 日報 / 監督依照設計圖說施工、查核材料規格及品質、其他約定監造事項: 公共工程-PC/公共工程監造日報/監造日報/日報-監督依照設計圖說施工、查核材料規格及品質、其他約定監造事項.md
+              - 日報 / 督導工地職業安全衛生事項: 公共工程-PC/公共工程監造日報/監造日報/日報-督導工地職業安全衛生事項.md
+              - 日報 / 其他應檢附之文件: 公共工程-PC/公共工程監造日報/監造日報/日報-其他應檢附之文件.md
+              - 日報 / 其他紀錄: 公共工程-PC/公共工程監造日報/監造日報/日報-其他紀錄.md
+              - 列印日報: 公共工程-PC/公共工程監造日報/監造日報/列印日報.md
+              - 日報 / 其他紀錄: 公共工程-PC/公共工程監造日報/監造日報/日報-其他紀錄.md
+          - 日報 / 更多紀錄事項: 公共工程-PC/公共工程監造日報/日報-更多紀錄事項.md
           - 日報系統設定:
-              - pc/supervisor-diary/system-settings/index.md
-              - 監造日報分享: pc/supervisor-diary/system-settings/jian-zao-ri-bao-fen-xiang.md
-              - 預計進度設定: kJKND4sGcMpmdiGDskzP.md
-              - 欄位重點提示設定: d8csboPAEWporVhJfjoP.md
-      - 影音日誌: 7VmzD2L7tae66VMbtO32.md
-      - 檢查表: C4NGPzAxT7ZzRah4D72h.md
-      - 會議紀錄: SnJxu3W1m4X4tXpuCkvh.md
+              - 公共工程-PC/公共工程監造日報/日報系統設定/index.md
+              - 監造日報分享: 公共工程-PC/公共工程監造日報/日報系統設定/監造日報分享.md
+              - 預計進度設定: 公共工程-PC/公共工程監造日報/日報系統設定/預計進度設定.md
+              - 欄位重點提示設定: 公共工程-PC/公共工程監造日報/日報系統設定/欄位重點提示設定.md
+      - 影音日誌: 公共工程-PC/影音日誌.md
+      - 檢查表: 公共工程-PC/檢查表.md
+      - 會議紀錄: 公共工程-PC/會議紀錄.md
       - 材料(設備)抽檢試驗:
-          - pc/material_test/index.md
-          - 基本設定-材料管理: FR766BRRwyUZElVauGN7.md
-          - 材料檢試驗: pc/material_test/cai-liao-jian-shi-yan.md
-          - 申請檢試驗: pc/material_test/shen-qing-jian-shi-yan.md
-          - 檢驗結果紀錄: pc/material_test/jian-yan-jie-guo-ji-lu.md
-      - 監造抽查紀錄表**: WVtOxq8dRr0GGAkf0Q4u.md
-      - 缺失抽查單**: ovw8Bedrtmx22UEvHPVz.md
-      - 點工管理**: RmjtdCY8iXeLCYSLKlR3.md
-      - 晴雨表**: VCo3XFAtghoItFmUAprE.md
-      - 進出管制**: Gn1TXv6KmNu9AoPdyeKj.md
-      - 職安衛自動檢查計劃**: pnS0XDIFjntfEZVUk9bH.md
-      - 設備盤點**: 6BCJLel1CDzKjI4IppCI.md
+          - 公共工程-PC/材料(設備)抽檢試驗/index.md
+          - 基本設定-材料管理: 公共工程-PC/材料(設備)抽檢試驗/基本設定-材料管理.md
+          - 材料檢試驗: 公共工程-PC/材料(設備)抽檢試驗/材料檢試驗.md
+          - 申請檢試驗: 公共工程-PC/材料(設備)抽檢試驗/申請檢試驗.md
+          - 檢驗結果紀錄: 公共工程-PC/材料(設備)抽檢試驗/檢驗結果紀錄.md
+      - 監造抽查紀錄表**: 公共工程-PC/監造抽查紀錄表.md
+      - 缺失抽查單**: 公共工程-PC/缺失抽查單.md
+      - 點工管理**: 公共工程-PC/點工管理.md
+      - 晴雨表**: 公共工程-PC/晴雨表.md
+      - 進出管制**: 公共工程-PC/進出管制.md
+      - 職安衛自動檢查計劃**: 公共工程-PC/職安衛自動檢查計劃.md
+      - 設備盤點**: 公共工程-PC/設備盤點.md
   - 人力派遣 TW:
-      - tw/index.md
-      - 功能概述: tw/gong-neng-gai-shu.md
-      - 公司分公司基本資料: tw/compinfo.md
-      - 派遣工管理: tw/resource.md
-      - 客戶管理: tw/customer.md
-      - 案場合約: tw/contract.md
-      - 需求單與派遣: tw/requirement.md
-      - 出勤表: tw/attendance.md
-      - 被派遣人員APP: tw/bei-pai-qian-ren-yuan-app.md
-  - 製造施工 PMC**: pmc.md
-  - 現場服務 FSM**: fsm.md
-  - 場域維運 O&M**: onm.md
+      - 人力派遣-TW/index.md
+      - 功能概述: 人力派遣-TW/功能概述.md
+      - 公司分公司基本資料: 人力派遣-TW/公司分公司基本資料.md
+      - 派遣工管理: 人力派遣-TW/派遣工管理.md
+      - 客戶管理: 人力派遣-TW/客戶管理.md
+      - 案場合約: 人力派遣-TW/案場合約.md
+      - 需求單與派遣: 人力派遣-TW/需求單與派遣.md
+      - 出勤表: 人力派遣-TW/出勤表.md
+      - 被派遣人員APP: 人力派遣-TW/被派遣人員APP.md
+  - 製造施工 PMC**: 製造施工-PMC.md
+  - 現場服務 FSM**: 現場服務-FSM.md
+  - 場域維運 O&M**: 場域維運-O&M.md

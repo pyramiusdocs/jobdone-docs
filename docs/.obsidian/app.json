@@ -1,1 +1,5 @@
-{}
+{
+  "useMarkdownLinks": true,
+  "openBehavior": "",
+  "attachmentFolderPath": "docs/assets/images"
+}
