@@ -2,4 +2,4 @@
 
 ## 簡易流程圖
 
-![](../assets/images/7aa31c3b236953ab.png)
+![](images/7aa31c3b236953ab.png)

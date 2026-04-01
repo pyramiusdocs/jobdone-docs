@@ -17,11 +17,11 @@ LINE 群組助理能將專案與 LINE 群組的紀錄進行連結，自動將群
 
 進入想要綁定的專案，點選 「 LINE 群組助理 」 ，選擇右上角 「 產生綁定代碼 」，並依指示步驟完成前置作業後，複製代碼貼至群組內即可綁定成功。
 
-![](../assets/images/36f2df0ea0bbfdec.png)
+![](images/36f2df0ea0bbfdec.png)
 
-![](../assets/images/cccef2e8b3ff5faf.png)
+![](images/cccef2e8b3ff5faf.png)
 
-![](../assets/images/3a365e3bf71cb8e1.png)
+![](images/3a365e3bf71cb8e1.png)
 
 ## 終止紀錄
 

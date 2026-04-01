@@ -17,7 +17,7 @@ description: My Request For Information
 
 ## 欄位說明 <a href="#rfi" id="rfi"></a>
 
-![](../../assets/images/6921a8f1d611583c.png)
+![](images/6921a8f1d611583c.png)
 
 * **公司專案：**
 

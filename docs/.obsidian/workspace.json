@@ -11,10 +11,14 @@
             "id": "ec24294cf73d43c1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "一般建案-BC/一般建案施工日誌.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "一般建案施工日誌"
             }
           }
         ]
@@ -181,6 +185,18 @@
   },
   "active": "ec24294cf73d43c1",
   "lastOpenFiles": [
+    "images/zqcQVvUwGxZPgbZPWPCU.jpg",
+    "images/zgc5RKJo3VDdhFnWwC9p.png",
+    "images/zXZ6fJ639VQHoQpnWdPG.png",
+    "images/zJnjpXVbKb75YloJO3u2.png",
+    "images/yvncJaWN0fB7uCpVI0ZK.png",
+    "images/yoPpXfSWMJ8IHSsgDZxI.png",
+    "images/yush96JCW8fKvM5FcnD4.png",
+    "images/yVf2yM2ljP6G3u7vLsYQ.png",
+    "images/ySEsD1kOuw5FgUyAhqTb.jpg",
+    "images/yKBPmuGnmhrt2abPzaR3.png",
+    "images/xxvjddOE4oN3MuMl4iyk.jpg",
+    "images",
     "公共工程-PC/公共工程監造日報/日報系統設定/欄位重點提示設定.md",
     "公共工程-PC/公共工程監造日報/日報系統設定/預計進度設定.md",
     "公共工程-PC/設備盤點.md",
@@ -206,7 +222,6 @@
     "人力派遣-TW/功能概述.md",
     "人力派遣-TW/出勤表.md",
     "人力派遣-TW/公司分公司基本資料.md",
-    "人力派遣-TW/index.md",
     "人力派遣-TW",
     "公共工程-PC/公共工程監造日報/監造日報",
     "公共工程-PC/公共工程監造日報/日報系統設定",
@@ -215,7 +230,6 @@
     "公共工程-PC/材料(設備)抽檢試驗",
     "公共工程-PC/公共工程監造日報",
     "公共工程-PC/公共工程施工日誌",
-    "公共工程-PC",
-    "一般建案-BC/檢查表"
+    "公共工程-PC"
   ]
 }
