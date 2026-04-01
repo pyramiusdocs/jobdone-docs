@@ -22,7 +22,6 @@ theme:
     text: Noto Sans TC
     code: Roboto Mono
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
