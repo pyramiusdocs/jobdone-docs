@@ -19,8 +19,8 @@ description: Observations
 
 由專案管理員，於專案下的基本資料中啟用「自主檢查」功能，如下圖：
 
-![](images/20e8169e0c2d791b.png)
+![](../../images/20e8169e0c2d791b.png)
 
 開啟此功能後，方可透過功能選單或快速連結進入自主檢查頁面。
 
-![](images/39d946bd0e18d90e.png)
+![](../../images/39d946bd0e18d90e.png)

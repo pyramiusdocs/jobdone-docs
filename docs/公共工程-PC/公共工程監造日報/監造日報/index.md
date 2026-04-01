@@ -10,7 +10,7 @@
 填寫施工日誌時，可能會使用到[**施工項目**](../../project_level/construction_item)、**材料管理**、[**工種 ( 工別 )**](../../project_level/zhuan-an-gong-zhong-gong-bie-lei-xing)、[**施工項目總表**](../../project_level/shi-gong-xiang-mu-zong-biao) 等設定。\
 會需要您先於[**專案資料設定**](../../project_level/project_list)頁面中進行設定。
 
-![](images/353d9dcb57ab2226.png)
+![](../../../images/353d9dcb57ab2226.png)
 
 ## 啟用功能
 
@@ -21,11 +21,11 @@
     監造日報目前僅能使用網頁版。
 
 
-![](images/df8202bd4011c97c.png)
+![](../../../images/df8202bd4011c97c.png)
 
 ## 日報資訊一覽
 
-![](images/a2c19f8fce69b02a.png)
+![](../../../images/a2c19f8fce69b02a.png)
 
 ### 專案工期資訊
 
@@ -48,4 +48,4 @@
 
 監造月報可迅速瀏覽每天的填寫概況，也可以點選日期查看指定日期的日報。
 
-![](images/ca6d22944c1ddb7a.png)
+![](../../../images/ca6d22944c1ddb7a.png)

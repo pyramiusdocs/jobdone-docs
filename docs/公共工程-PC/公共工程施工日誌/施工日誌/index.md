@@ -5,7 +5,7 @@
 填寫施工日誌時，可能會使用到[**施工項目**](../../project_level/construction_item)、**材料管理**、[**工種 ( 工別 )**](../../project_level/zhuan-an-gong-zhong-gong-bie-lei-xing)、[**施工項目總表**](../../project_level/shi-gong-xiang-mu-zong-biao) 等設定。\
 會需要您先於[**專案資料設定**](../../project_level/project_list)頁面中進行設定。
 
-![](images/549ccb9303d9df15.png)
+![](../../../images/549ccb9303d9df15.png)
 
 ## 啟用功能
 
@@ -16,11 +16,11 @@
     施工日誌目前僅能使用網頁版。
 
 
-![](images/d77156df45ff2ce5.png)
+![](../../../images/d77156df45ff2ce5.png)
 
 ## 日誌資訊一覽
 
-![](images/b217ed9a841dd349.png)
+![](../../../images/b217ed9a841dd349.png)
 
 ### 日誌模式
 
@@ -47,4 +47,4 @@
 
 施工月報可迅速瀏覽每天日誌的填寫概況，也可以點選日期查看指定日期的日誌報告。
 
-![](images/916adccc4c4f1c89.png)
+![](../../../images/916adccc4c4f1c89.png)

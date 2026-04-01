@@ -17,7 +17,7 @@ description: Corrective Action Plan / Corrective Action Report
 * 已結案：改善單已通過並結案，僅可檢視改善單資料，無法再編輯
 * 審核未通過：改善單未通過，僅可檢視改善單資料，無法再編輯
 
-![](images/de37c1650d6a14ab.png)
+![](../../images/de37c1650d6a14ab.png)
 
 ## 改善單類型
 
@@ -29,4 +29,4 @@ description: Corrective Action Plan / Corrective Action Report
 
     NCR 需先提出改善計畫，經審核確認後，再回報改善紀錄
 
-![一般缺失（DND） / 不符合事項（NCR） 流程圖](images/1347e1a2dd616c3d.png)
+![一般缺失（DND） / 不符合事項（NCR） 流程圖](../../images/1347e1a2dd616c3d.png)

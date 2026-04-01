@@ -23,11 +23,11 @@ description: Request for Material Test & Inspection
 
 由專案管理員，於專案下的基本資料中啟用「材料檢試驗」功能，如下圖。
 
-![](images/dc56822f2f0db2d1.png)
+![](../../images/dc56822f2f0db2d1.png)
 
 開啟此功能後，方可透過功能選單或快速連結進入材料檢試驗頁面。
 
-![](images/24d2fce30beb66b9.png)
+![](../../images/24d2fce30beb66b9.png)
 
 
 
