@@ -51,7 +51,7 @@ description: Import Asset Equipment via Excel
 
 有關切換資產分類之操作，亦可參考下方影片：
 
-[https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FEqUCL3D5WQfpxJw8NL3P%2Fuploads%2FLjlaw2L5B4oSfYPSoDQs%2F%E8%B3%87%E7%94%A2%E8%A8%AD%E5%82%99%E7%AE%A1%E7%90%86%E7%90%86.mp4?alt=media&token=45c25389-d56d-4a14-9054-d617109aaafb](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FEqUCL3D5WQfpxJw8NL3P%2Fuploads%2FLjlaw2L5B4oSfYPSoDQs%2F%E8%B3%87%E7%94%A2%E8%A8%AD%E5%82%99%E7%AE%A1%E7%90%86%E7%90%86.mp4?alt=media&token=45c25389-d56d-4a14-9054-d617109aaafb)
+{% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FEqUCL3D5WQfpxJw8NL3P%2Fuploads%2FLjlaw2L5B4oSfYPSoDQs%2F%E8%B3%87%E7%94%A2%E8%A8%AD%E5%82%99%E7%AE%A1%E7%90%86%E7%90%86.mp4?alt=media&token=45c25389-d56d-4a14-9054-d617109aaafb" %}
 切換資產分類
 {% endembed %}
 {% endstep %}
