@@ -292,7 +292,7 @@ def fix_image_paths():
 
 # ─── 重建 Nav ───────────────────────────────────────
 
-def build_nav_yaml(pages, indent=2):
+def build_nav_yaml(pages, indent=2, parent_path=""):
     """從頁面樹建立 mkdocs.yml 的 nav 區段。"""
     lines = []
     prefix = " " * indent
@@ -300,14 +300,15 @@ def build_nav_yaml(pages, indent=2):
     for page in pages:
         title = page.get("title", "Untitled")
         new_name = sanitize_filename(title)
+        full_path = f"{parent_path}/{new_name}" if parent_path else new_name
         children = page.get("pages", [])
 
         if children:
             lines.append(f"{prefix}- {title}:")
-            lines.append(f"{prefix}    - 總覽: {new_name}/index.md")
-            lines.extend(build_nav_yaml(children, indent + 4))
+            lines.append(f"{prefix}    - 總覽: {full_path}/index.md")
+            lines.extend(build_nav_yaml(children, indent + 4, full_path))
         else:
-            lines.append(f"{prefix}- {title}: {new_name}.md")
+            lines.append(f"{prefix}- {title}: {full_path}.md")
 
     return lines
 
