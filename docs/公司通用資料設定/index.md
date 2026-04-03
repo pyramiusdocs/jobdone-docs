@@ -1,3 +1,5 @@
+# 公司通用資料設定
+
 ---
 description: Company-Wide Configuration Settings
 ---

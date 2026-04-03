@@ -1,3 +1,5 @@
+# 精簡版
+
 ---
 description: Simplified Version
 ---

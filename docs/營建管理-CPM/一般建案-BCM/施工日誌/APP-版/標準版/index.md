@@ -1,3 +1,5 @@
+# 標準版
+
 ---
 description: Standard Version
 ---

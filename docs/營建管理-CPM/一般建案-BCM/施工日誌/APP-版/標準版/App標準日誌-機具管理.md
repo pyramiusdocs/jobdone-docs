@@ -1,3 +1,5 @@
+# App標準日誌 / 機具管理
+
 ---
 description: App / Log - Equipment Management
 ---

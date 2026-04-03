@@ -1,3 +1,5 @@
+# App標準日誌 / 基本資料
+
 ---
 description: App / Log - Basic Information
 ---
