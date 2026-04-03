@@ -327,7 +327,11 @@ def rebuild_nav(content_tree):
 
     # 替換 nav 區段
     new_nav = f"nav:\n  - 首頁: index.md\n{nav_yaml}\n"
-    yml = re.sub(r'nav:.*', new_nav, yml, flags=re.DOTALL)
+    nav_start = yml.find("\nnav:")
+    if nav_start >= 0:
+        yml = yml[:nav_start+1] + new_nav
+    else:
+        yml += "\n" + new_nav
 
     yml_path.write_text(yml, encoding="utf-8")
     print(f"  ✓ nav 已更新（{len(nav_lines)} 項）")

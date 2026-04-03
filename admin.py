@@ -68,7 +68,7 @@ def tree_to_nav(tree, indent=2):
         t = it.get("title", it["name"]); path = it["path"]
         if it["type"] == "folder":
             lines.append(f"{p}- {t}:")
-            lines.append(f"{p}    - 總覽: {path}/index.md")
+            lines.append(f"{p}    - {path}/index.md")
             lines.extend(tree_to_nav(it.get("children",[]), indent+4))
         else:
             lines.append(f"{p}- {t}: {path}")
@@ -78,7 +78,14 @@ def rebuild_nav():
     tree = scan_tree(DOCS_DIR)
     nav = "\n".join(tree_to_nav(tree))
     yml = MKDOCS_YML.read_text("utf-8")
-    yml = re.sub(r"nav:.*", f"nav:\n  - 首頁: index.md\n{nav}\n", yml, flags=re.DOTALL)
+    # Only replace the nav section (from "nav:" to end of file or next top-level key)
+    new_nav = f"nav:\n  - 首頁: index.md\n{nav}\n"
+    # Find where nav starts
+    nav_start = yml.find("\nnav:")
+    if nav_start >= 0:
+        yml = yml[:nav_start+1] + new_nav
+    else:
+        yml += "\n" + new_nav
     MKDOCS_YML.write_text(yml, "utf-8")
     return tree
 
