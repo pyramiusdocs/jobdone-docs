@@ -27,11 +27,17 @@ def save_order(order):
 
 def get_title(fp):
     try:
+        in_frontmatter = False
         for line in open(fp, "r", encoding="utf-8"):
             line = line.strip()
+            if line == "---":
+                in_frontmatter = not in_frontmatter
+                continue
+            if in_frontmatter:
+                continue
             if line.startswith("# "):
                 return line[2:].strip()
-            if line and not line.startswith("---"):
+            if line:
                 return line[:50]
         return fp.stem
     except:

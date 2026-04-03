@@ -750,11 +750,11 @@ nav:
       - 註冊Jobdone代客驗屋: 代客驗屋-HIS/註冊Jobdone代客驗屋.md
       - 預約排程: 代客驗屋-HIS/預約排程.md
       - 驗屋報告: 代客驗屋-HIS/驗屋報告.md
-  - description: FAQ:
+  - FAQ:
       - FAQ/index.md
       - APP拍照壓縮比: FAQ/APP拍照壓縮比.md
       - 帳號與費用: FAQ/帳號與費用.md
-      - description: 比較: FAQ/版本比較表.md
-      - description: 各種可能發生的操作錯誤說明: FAQ/系統疑難排解.md
-      - description: 瞭解使用 Jobdone 網頁及移動裝置建議的系統需求: FAQ/系統需求.md
+      - 版本比較表: FAQ/版本比較表.md
+      - 系統疑難排解: FAQ/系統疑難排解.md
+      - 系統需求: FAQ/系統需求.md
       - 裝置設定: FAQ/裝置設定.md
