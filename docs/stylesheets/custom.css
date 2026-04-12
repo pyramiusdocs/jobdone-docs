@@ -1,10 +1,781 @@
+/* 三欄佈局：左側導覽 + 主內容 + 右側摘要，1024px 完整顯示 */
+:root {
+  --sidebar-w: 240px;
+  --md-sidebar-width: 240px;        /* left nav */
+  --md-sidebar-width--right: 180px; /* right TOC */
+  --jd-header-bg: rgba(255, 255, 255, 0.94);
+  --jd-header-border: rgba(148, 163, 184, 0.22);
+  --jd-header-text: #0f172a;
+  --jd-header-muted: #475569;
+  --jd-header-pill-bg: #f8fafc;
+  --jd-header-pill-border: #dbe2ea;
+  --jd-header-pill-hover: #eff6ff;
+}
+
+.md-header--shadow {
+  box-shadow: 0;
+}
+
+.md-header {
+  background: var(--jd-header-bg);
+  border-bottom: 1px solid var(--jd-header-border);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+  backdrop-filter: saturate(180%) blur(16px);
+}
+
+.md-header__inner {
+  min-height: 4.5rem;
+  gap: 0.75rem;
+}
+
+.md-header__button,
+.md-header__title,
+.md-header__topic,
+.md-header__source,
+.md-search__form,
+.md-search__input {
+  color: var(--jd-header-text);
+}
+
+.md-header__button.md-logo {
+  margin: 0 0 0 1em;
+  padding: 0;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.1rem;
+  width: auto;
+}
+
+.md-header__title {
+  margin-left: 0 !important;
+}
+
+.md-header__topic:first-child {
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.md-header__topic + .md-header__topic {
+  color: var(--jd-header-muted);
+  font-size: 0.76rem;
+}
+
+.md-header__button.md-icon {
+  color: var(--jd-header-muted);
+}
+
+.md-header__option {
+  display: flex;
+  align-items: center;
+}
+
+.jd-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.jd-header__actions .md-header__button,
+.jd-header__actions .md-header__option label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--jd-header-pill-border);
+  border-radius: 999px;
+  background: var(--jd-header-pill-bg);
+  color: var(--jd-header-text);
+  transition: background-color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+  cursor: pointer;
+}
+
+.jd-header__actions .md-header__button:hover,
+.jd-header__actions .md-header__option label:hover {
+  background: var(--jd-header-pill-hover);
+  border-color: #bfdbfe;
+  transform: translateY(-1px);
+}
+
+.jd-header__actions .md-header__option input {
+  display: none;
+}
+
+.jd-header__actions .md-header__option label[hidden] {
+  display: none;
+}
+
+.jd-header__search-trigger {
+  margin: 0;
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  outline: inherit;
+}
+
+.jd-header__links {
+  display: none;
+}
+
+.jd-header__link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.4rem;
+  padding: 0 0.9rem;
+  border: 1px solid var(--jd-header-pill-border);
+  border-radius: 999px;
+  background: var(--jd-header-pill-bg);
+  color: var(--jd-header-text);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+}
+
+.jd-header__link:hover {
+  background: var(--jd-header-pill-hover);
+  border-color: #bfdbfe;
+  transform: translateY(-1px);
+}
+
+/* ===== Force 3-column layout at 1024px (64em) ===== */
+
+/* Override Material's 76.25em breakpoint — show both sidebars from 60em */
+@media screen and (min-width: 60em) {
+  /* Left sidebar: always visible, fixed width */
+  .md-sidebar--primary {
+    display: block !important;
+    position: sticky !important;
+    width: var(--sidebar-w) !important;
+    flex-shrink: 0;
+  }
+
+  /* Right TOC sidebar: force visible (Material hides it below 76.25em) */
+  .md-sidebar--secondary {
+    display: block !important;
+    position: sticky !important;
+    width: var(--md-sidebar-width--right) !important;
+    flex-shrink: 0;
+  }
+
+  /* Hide hamburger (Material shows it below 76.25em) */
+  .md-header__button[for="__drawer"] {
+    display: none;
+  }
+
+  /* Show header logo (Material hides it below 76.25em) */
+  .md-header__button.md-logo {
+    display: inline-flex !important;
+  }
+
+  /* Main content fills remaining space */
+  .md-content {
+    min-width: 0;
+    flex: 1 1 0;
+  }
+
+  .md-header__inner {
+    margin: 0 1em;
+  }
+
+  .md-nav__icon:after {
+    color: #a9a9a999;
+  }
+
+  .jd-header__links {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin-left: auto;
+  }
+
+  /* Content max-width: prevent overly wide text */
+  .md-content__inner {
+    max-width: 36rem;
+  }
+
+  /* Fix nav to not use the drawer-style at this breakpoint */
+  .md-nav--primary,
+  .md-nav--primary .md-nav {
+    position: static !important;
+    display: block !important;
+    height: auto !important;
+    background: none !important;
+    flex-direction: unset !important;
+  }
+
+  .md-nav--primary > .md-nav__title {
+    display: none;
+  }
+
+  /* Hide the integrated TOC toggle in left nav (Material shows it between 60em-76.25em) */
+  .md-nav--integrated .md-nav__link[for="__toc"] {
+    display: none !important;
+  }
+}
+
+/* Wider screens get more breathing room */
+@media screen and (min-width: 76.25em) {
+  :root {
+    --sidebar-w: 260px;
+    --md-sidebar-width--right: 200px;
+  }
+
+  .md-header__inner {
+    margin: 0 2em;
+  }
+}
+
+
+.md-sidebar__scrollwrap {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.md-sidebar__inner {
+  padding-right: 0 !important;
+}
+
+/* Prevent the main container from overflowing — flex layout for 3-column */
+.md-container .md-main__inner {
+  display: flex;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 60em) {
+  .md-search {
+    padding: 0;
+    position: relative;
+  }
+
+  .jd-header__search-trigger {
+    display: inline-flex !important;
+  }
+
+  /* ---- Search overlay: full-screen dim ---- */
+  .md-search__overlay {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(15, 23, 42, 0.45) !important;
+    backdrop-filter: blur(4px) !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    transition: opacity 0.2s ease !important;
+    z-index: 2 !important;
+    border-radius: 0 !important;
+    transform: none !important;
+  }
+
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__overlay {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    transform: none !important;
+    width: 100vw !important;
+    height: 100vh !important;
+  }
+
+  /* ---- Search panel: centered modal ---- */
+  [dir] .md-search__inner,
+  .md-search__inner {
+    float: none !important;
+    position: fixed !important;
+    top: 15vh !important;
+    left: 50% !important;
+    right: auto !important;
+    transform: translate(-50%, -10px) !important;
+    width: min(38rem, calc(100vw - 3rem)) !important;
+    height: auto !important;
+    max-height: 70vh !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    transition: opacity 0.18s ease, transform 0.18s ease !important;
+    z-index: 4 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  [data-md-toggle="search"]:checked ~ .md-header [dir] .md-search__inner,
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__inner {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    transform: translate(-50%, 0) !important;
+    width: min(38rem, calc(100vw - 3rem)) !important;
+    height: auto !important;
+  }
+
+  /* ---- Search form ---- */
+  .md-search__form {
+    height: 3.2rem;
+    border: 1px solid var(--jd-header-pill-border) !important;
+    border-radius: 0.75rem !important;
+    background: var(--md-default-bg-color) !important;
+    box-shadow: 0 8px 32px rgba(15, 23, 42, 0.12) !important;
+    color: var(--md-default-fg-color) !important;
+  }
+
+  .md-search__input {
+    height: 3.2rem;
+    font-size: 1rem;
+    padding-left: 3rem;
+    color: var(--md-default-fg-color) !important;
+  }
+
+  .md-search__input::placeholder {
+    color: var(--md-default-fg-color--light);
+  }
+
+  /* Close (X) button — always visible */
+  .md-search__options {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+  }
+
+  .md-search__options .md-icon {
+    color: var(--md-default-fg-color--light);
+    opacity: 1 !important;
+  }
+
+  /* ---- Search output / results ---- */
+  .md-search__output {
+    overflow: hidden;
+    margin-top: 0.5rem;
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    border-radius: 0.75rem;
+    background: var(--md-default-bg-color);
+    box-shadow: 0 16px 48px rgba(15, 23, 42, 0.12);
+  }
+
+  .md-search__scrollwrap {
+    max-height: min(50vh, 28rem);
+    width: 100%;
+  }
+
+  .md-search-result__list[hidden] {
+    display: block !important;
+  }
+
+  /* Meta line: "找到 N 個符合的項目" / "打字進行搜尋" — empty state styling */
+  .md-search-result__meta {
+    text-align: center !important;
+    color: var(--md-default-fg-color--lighter) !important;
+    background: none !important;
+    font-size: 0.72rem !important;
+    padding: 1.5rem 1rem !important;
+    letter-spacing: 0.02em;
+  }
+
+  /* Result list item paddings */
+  .md-search-result__meta,
+  .md-search-result__list {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* "此頁尚有 N 個符合的項目" — demote to small gray */
+  .md-search-result__more > summary > div {
+    color: var(--md-default-fg-color--lighter) !important;
+    font-size: 0.6rem !important;
+    padding-top: 0.25em !important;
+    padding-bottom: 0.25em !important;
+  }
+
+  .md-search-result__more > summary:hover > div {
+    color: var(--md-accent-fg-color) !important;
+  }
+
+  /* Result article: tighter, truncate long snippets */
+  .md-search-result .md-typeset {
+    font-size: 0.64rem;
+    line-height: 1.5;
+  }
+
+  .md-search-result .md-typeset p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Result titles */
+  .md-search-result .md-typeset h1 {
+    font-size: 0.82rem;
+    font-weight: 600;
+  }
+
+  /* Active states for trigger button */
+  [data-md-toggle="search"]:checked ~ .md-header .jd-header__search-trigger,
+  [data-md-toggle="search"]:checked ~ .md-header .jd-header__actions .md-header__option label {
+    background: var(--jd-header-pill-hover);
+    border-color: #bfdbfe;
+  }
+}
+
+@media screen and (max-width: 59.9844em) {
+  .md-header__topic + .md-header__topic {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 59.9844em) {
+  .md-header__inner {
+    min-height: 4rem;
+  }
+
+  .jd-header__links {
+    display: none !important;
+  }
+
+  .jd-header__actions {
+    margin-left: auto;
+  }
+
+  .md-header__button.md-logo img,
+  .md-header__button.md-logo svg {
+    height: 1.8rem;
+  }
+
+  /* ---- Mobile nav drawer: logo + title same line ---- */
+  .md-nav--primary > .md-nav__title[for="__drawer"] {
+    display: flex !important;
+    align-items: center !important;
+    background: var(--jd-header-bg) !important;
+    color: var(--jd-header-text) !important;
+    border-bottom: 1px solid var(--jd-header-border);
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+    gap: 0.5rem;
+    height: auto !important;
+    padding: 0.75rem 0.8rem !important;
+    white-space: nowrap;
+  }
+
+  .md-nav--primary > .md-nav__title .md-logo {
+    position: static !important;
+    display: inline-flex !important;
+    flex-shrink: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+  }
+
+  .md-nav--primary > .md-nav__title .md-logo img,
+  .md-nav--primary > .md-nav__title .md-logo svg {
+    height: 1.6rem !important;
+    width: auto !important;
+  }
+
+  /* ---- Search: centered modal (matching desktop) ---- */
+  .md-search {
+    padding: 0;
+    position: relative;
+  }
+
+  /* Overlay: full-screen dim */
+  .md-search__overlay {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(15, 23, 42, 0.45) !important;
+    backdrop-filter: blur(4px) !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    transition: opacity 0.2s ease !important;
+    z-index: 2 !important;
+    border-radius: 0 !important;
+    transform: none !important;
+    cursor: pointer;
+  }
+
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__overlay {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    transform: none !important;
+    width: 100vw !important;
+    height: 100vh !important;
+  }
+
+  /* Search panel: centered modal */
+  [dir] .md-search__inner,
+  .md-search__inner {
+    position: fixed !important;
+    top: 10vh !important;
+    left: 50% !important;
+    right: auto !important;
+    transform: translate(-50%, -10px) !important;
+    width: calc(100vw - 2rem) !important;
+    height: auto !important;
+    max-height: 80vh !important;
+    overflow: visible !important;
+    padding: 0 !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+    transition: opacity 0.18s ease, transform 0.18s ease !important;
+    z-index: 4 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  [data-md-toggle="search"]:checked ~ .md-header [dir] .md-search__inner,
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__inner {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    transform: translate(-50%, 0) !important;
+    width: calc(100vw - 2rem) !important;
+    height: auto !important;
+  }
+
+  /* Search form */
+  .md-search__form {
+    height: 3rem !important;
+    border: 1px solid var(--jd-header-pill-border) !important;
+    border-radius: 0.75rem !important;
+    background: var(--md-default-bg-color) !important;
+    box-shadow: 0 8px 32px rgba(15, 23, 42, 0.12) !important;
+    color: var(--md-default-fg-color) !important;
+  }
+
+  .md-search__input {
+    height: 3rem !important;
+    font-size: 0.95rem;
+    color: var(--md-default-fg-color) !important;
+  }
+
+  .md-search__input::placeholder {
+    color: var(--md-default-fg-color--light);
+  }
+
+  /* Close button always visible */
+  .md-search__options {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    top: 0.5rem !important;
+  }
+
+  .md-search__options .md-icon {
+    color: var(--md-default-fg-color--light);
+    opacity: 1 !important;
+  }
+
+  /* Search output: override Material's position:absolute to flow naturally */
+  .md-search__output {
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+    overflow: hidden;
+    margin-top: 0.5rem;
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    border-radius: 0.75rem;
+    background: var(--md-default-bg-color);
+    box-shadow: 0 16px 48px rgba(15, 23, 42, 0.12);
+    opacity: 1 !important;
+    width: 100% !important;
+  }
+
+  .md-search__scrollwrap {
+    max-height: min(55vh, 24rem) !important;
+    width: 100% !important;
+    overflow-y: auto;
+  }
+
+  .md-search-result__list[hidden] {
+    display: block !important;
+  }
+
+  /* Empty state / meta */
+  .md-search-result__meta {
+    text-align: center !important;
+    color: var(--md-default-fg-color--lighter) !important;
+    background: none !important;
+    font-size: 0.72rem !important;
+    padding: 1.5rem 1rem !important;
+  }
+
+  .md-search-result__meta,
+  .md-search-result__list {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  /* Demote secondary info */
+  .md-search-result__more > summary > div {
+    color: var(--md-default-fg-color--lighter) !important;
+    font-size: 0.6rem !important;
+  }
+
+  /* Truncate snippets */
+  .md-search-result .md-typeset {
+    font-size: 0.64rem;
+    line-height: 1.5;
+  }
+
+  .md-search-result .md-typeset p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .md-search-result .md-typeset h1 {
+    font-size: 0.82rem;
+    font-weight: 600;
+  }
+}
+
+/* 整體容器寬度 — 不限制，讓三欄自然填滿 */
+.md-grid {
+  max-width: none !important;
+}
+
+
 /* GitBook-like compact sidebar */
 .md-nav__link {
   padding: 0.3em 0.6em;
   font-size: 0.7rem;
   line-height: 1.3;
+  color: #555;
+  border-radius: 5px;
+  transition: background-color 0.15s, font-weight 0.15s;
+  white-space: nowrap;
+}
+
+.md-nav__link:hover {
+  background-color: oklch(96.8% 0.007 247.896);
+  border-radius: 5px;
+  color: #2d2d2d !important;
+}
+
+/* 導覽列與目錄文字深灰 */
+.md-typeset .md-nav__link,
+.md-typeset .toclink,
+.md-nav__link {
+  color: #777777;
+}
+
+/* ===== Dark mode (slate) overrides ===== */
+[data-md-color-scheme="slate"] {
+  --jd-header-bg: rgba(30, 41, 59, 0.94);
+  --jd-header-border: rgba(255, 255, 255, 0.08);
+  --jd-header-text: #e2e8f0;
+  --jd-header-muted: #94a3b8;
+  --jd-header-pill-bg: rgba(255, 255, 255, 0.06);
+  --jd-header-pill-border: rgba(255, 255, 255, 0.10);
+  --jd-header-pill-hover: rgba(255, 255, 255, 0.12);
+}
+
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+[data-md-color-scheme="slate"] .md-nav__link:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-nav__link,
+[data-md-color-scheme="slate"] .md-typeset .toclink {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .md-nav__item {
   padding: 0;
+}
+
+/* 目錄子選單左邊灰線 */
+.md-nav__list .md-nav__list {
+  border-left: 1px solid #ccc;
+  margin-left: 0.6em;
+  padding-left: 0.4em;
+}
+
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  font-weight: bold;
+}
+
+.md-typeset h1 {
+  margin-bottom: 0.5em;
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset h5 {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  letter-spacing: 0.02em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  color: #a2a2a2;
+}
+
+.md-typeset p {
+  letter-spacing: 0.02em;
+}
+
+/* mark highlight */
+.md-typeset mark {
+  background-color: #fff8d6;
+}
+
+/* all images, video & iframe */
+.md-typeset img,
+.md-typeset iframe,
+.md-typeset video {
+  border-radius: 10px;
+}
+
+/* APP screenshots grid: auto-fit, equal width per row */
+.app-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 1em 0;
+}
+.app-grid figure {
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 0;
+  text-align: center;
+}
+.app-grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+.app-grid figcaption {
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 4px;
+}
+
+/* 搜尋結果圓角（所有尺寸） */
+.md-search__output,
+.md-search__scrollwrap,
+.md-search-result {
+  border-radius: 0 0 0.75rem 0.75rem !important;
+  overflow: hidden;
+}
+
+/* kbd style */
+.md-typeset kbd {
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  background-color: transparent;
+  margin: 0 2px;
+  padding: 0.1em 0.5em;
+  font-weight: bold;
+  font-size: inherit;
 }
